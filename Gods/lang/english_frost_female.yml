@@ -1,0 +1,538 @@
+Version:
+  Name : Frost God
+  Author: DogOnFire
+  Version: 0.2
+GodToBelieverPrayerWhenNoItemNeed:
+- $PlayerName, you already have the items you need to do my work!
+GodToBelieverMarriedCouple:
+- $PlayerName, your love is making $ServerName a better place!
+- $PlayerName, your love shows the light for everyone in $ServerName!
+- May you live happy forever after, $PlayerName!
+GodToBelieverMarriageProposal:
+- I now ask of you, will you marry $PlayerName?
+GodToBelieverAcceptedMarriageProposal:
+- Very good, Now present your $Type to $PlayerName as a symbol of your love!
+GodToBelieverAcceptedYourMarriageProposal:
+- $PlayerName accepted your marrige proposal! Now present your $Type to $PlayerName as a symbol of your love!
+GodToBelieverMarriageTokenPickup:
+- Very good. Now present a $Type to $PlayerName to complete you wedding ceremony!
+GodToBelieverMarriagePartnerTokenPickup:
+- $PlayerName has taken your $Type. Now let $PlayerName give a $Type to you to complete you wedding ceremony!
+GodToBelieverMarried:
+- I now declare you both married in the Holy name of frost!
+GodToBelieverRandomExaltedSpeech:
+- I am proud of you my Children! You have showed true faith in me!
+- You make me proud, my children! You have followed my words and proven your faith!
+- Our faith is growing! You will all be rewarded!
+- $PlayerName, I am proud of you! Your faith will be rewarded!
+- $PlayerName, you make me proud! You shall be rewarded!
+- Yes! I can feel your faith in me! Our faith is a shining beacon for everyone to follow!
+- Very good! Your faith is strong! I am proud of you all!
+GodToBelieverRandomPleasedSpeech:
+- I am pleased with you all, my children!
+- Very good, my Children! We are doing well!
+- Good my Children. Pray harder, and I shall reward you!
+- Good. You are showing faith in me. Listen to my words and we will all be stronger!
+- I can feel your faith, $PlayerName!
+- Good $PlayerName, your faith is strong!
+- You are doing well, my children! Keep praying to me!
+GodToBelieverRandomNeutralSpeech:
+- I must have more believers. Get me more believers.
+- Help me to get more believers and i shall reward you!
+- More believers is more power!
+- Remember, the more believers we have the powerful we are!
+- Spread our religion, and i shall reward you!
+- We must make our religion known, go and tell others!
+- Pray at my altars!
+- Children, go forth and build altars in my name!
+- My children, do not listen to the words of the false gods!
+- I am the only true god for $ServerName
+- $ServerName needs my powers
+- Only I have the power to handle $ServerName!
+- Pray at my altars and i will show you the light!
+- Belief is power!
+- Believe in me and i will make you stronger!
+- Help me spreading my words to others in $ServerName!
+- My Children, only we hold the future of $ServerName!
+- Pray to me, and get stronger!
+- Do you believe in $ServerName ? Then pray to me!
+- My Children, i need your belief to get stronger!
+- My Children, only you can help me get stronger!
+- My Children, I will take care of you. Always!
+- Remember that I am always here, watching over each of you.
+- You are all my Children and I will always protect you!
+- My Children, make me proud!
+- My Children, we must get people to believe!
+- I know what is best for $ServerName!
+- Believe in me, my Children!
+- Pray to me, my Children!
+- Build altars and spread our religion!
+- Believe in me and i will take care of you, my Children!
+- Pray to me, and I will listen!
+- Make me proud, my Children!
+- Together, we are stronger!
+- Pray to me, and we will all become stronger!
+- Pray to me for a better world!
+- Do not listen to the words of false Gods! Pray to me!
+- Listen to the words of $PlayerName, he will help you to understand!
+- If you feel lost, talk to $PlayerName! He will show you the light!
+- Remember, $PlayerName is our priest, he will guide you towards the light!
+GodToBelieverRandomDispleasedSpeech:
+- We are losing faith, my children... Pray harder!
+- I can sense your lack of faith... Pray to me and listen to my words!
+- $PlayerName, we are losing faith! Help me to re-gain faith from our believers!
+- I am worried about $PlayerName. My followers are losing faith! Please spread my words!
+- I am disturbed by your lack of faith! Pray harder!
+GodToBelieverRandomAngrySpeech:
+- PRAY TO ME!!
+- NO! You must pray to me!!
+- I am VERY dissapointed with you!!
+- $PlayerName have shown no faith in our cause!! You WILL ALL feel my wrath!
+- You have lost faith in me and lost your way!! I cannot allow this!
+GodToBelieverNoQuestion:
+- I have not asked you for anything!
+GodToBelieversPriestAccepted:
+- My Children, $PlayerName has accepted to be my priest! A bright future awaits us!
+GodToPriestEatFoodType:
+- 'Tell our believers of our most sacred food: The $Type!'
+- 'Tell our believers to eat our holy food: The $Type!'
+- Tell our believers about the joy of $Type! You must eat it!
+GodToPriestNotEatFoodType:
+- $PlayerName, never eat the $Type! It is the unclean food!
+- $PlayerName, you are forbidden to eat $Type! It is the unholy food!
+- $PlayerName, you must never eat $Type! It is unholy food!
+- $PlayerName, tell our believers to never eat $Type! It is unclean!
+GodToPriestNotSlayMobType:
+- $PlayerName, no harm must ever come to our beloved $Type!
+- 'Tell our believers of our most sacred creature: The $Type!'
+- 'Tell our believers to respect our holy creature: The $Type!'
+- '$PlayerName, you must tell our believers about our holy creature: The $Type!'
+- $PlayerName, nothing is as holy as the $Type!
+- '$PlayerName, protect our holy of creature: The $Type!'
+GodToPriestSlayMobType:
+- $PlayerName, we must get rid of the $Type! It is a plague to this world!
+- The $Type is a unholy creature. Tell our believers to slay it!
+- The $Type is a nasty creature. We must get rid of it!
+- $PlayerName, tell our believers to slay the $Type. It is a unholy creature!
+GodToPriestPriestAccepted:
+- Good my child, you are now my priest. Let us work for a better world together!
+- Very well $PlayerName, my priest. Let us work for a better world!
+GodToPriestCursedPlayerSet:
+- Very well, I will bring down my curses upon $PlayerName!
+GodToPriestCursedPlayerUnset:
+- Very well, $PlayerName will no longer be cursed by me!
+GodToPriestBlessedPlayerSet:
+- Very well, I will give my blessings to $PlayerName!
+GodToPriestBlessedPlayerUnset:
+- Very well, $PlayerName will no longer be blessed by me.
+GodToBelieverPriestRejected:
+- Very well my child. I will look for one more suited as my priest.
+GodToBelieversBlessedPlayerSet:
+- My Children, I will now give my blessings to $PlayerName!
+GodToBelieversBlessedPlayerUnset:
+- My Children, $PlayerName will no longer feel my blessings.
+GodToPlayerCursed:
+- $PlayerName, you are an insult to our glory. Feel my wrath!
+- $PlayerName, you have angered me! Take this!
+- $PlayerName, feel my wrath! Take this!
+- $PlayerName, you have angered me and you must suffer!
+GodToPlayerBlessed:
+- Bless you, $PlayerName!
+- Here $PlayerName, receive my blessings!
+- $PlayerName, go with my blessings!
+GodToPlayerInvite:
+- $PlayerName, will you join our faith?
+- $PlayerName, will you join our religion?
+GodToPlayerAcceptedInvitation:
+- Welcome to our faith, $PlayerName!
+GodToBelieversCursedPlayerSet:
+- My Children, I will bring down curses upon $PlayerName!
+GodToBelieversCursedPlayerUnset:
+- My Children, $PlayerName will no longer feel my curses.
+GodToBelieversPlayerBlessed:
+- $PlayerName has just been blessed by me!
+GodToBelieversPlayerCursed:
+- $PlayerName has just been cursed by me!
+GodToBelieverOfferPriest:
+- $PlayerName, I have selected you as my priest in $ServerName. Do you accept this honor?
+GodToBelieverPraying:
+- Thank you my child, for praying to me!
+- Thank you for praying to me, my child!
+- I hear your prayer, my child!
+GodToBelieverAltarBuilt:
+- Thank you my child, for building this church in my name!
+GodToBelieversPlayerLeftReligion:
+- $PlayerName has abandoned our religion!
+GodToBelieversPlayerJoinedReligion:
+- $PlayerName has joined our religion!
+GodToBelieverHealthBlessing:
+- You look hurt my child. Let me bless you.
+GodToBelieversEatFoodBlessing:
+- $PlayerName has eaten the divine $Type. Recieve my blessings!
+- $PlayerName has eaten the holy $Type. Be praised!
+- Well done, $PlayerName! You have eaten the divine $Type!
+GodToBelieversNotEatFoodCursing:
+- $PlayerName ate $Type! Feel my wrath!
+- $PlayerName, never eat $Type! It is the cursed food!  It is feel my wrath!
+- $Type is the cursed food. $PlayerName, feel my wrath!
+GodToBelieversSlayMobBlessing:
+- $PlayerName has righteously slain the unholy $Type. Receive my blessings!
+- $PlayerName has slain the unholy $Type with honor. Well done!
+GodToBelieversNotSlayMobCursing:
+- $PlayerName, the $Type is our holy creature! It must never be harmed!
+- $PlayerName! Never do harm to the holy $Type! Feel my wrath!
+GodToBelieverItemBlessing:
+- Here my child. Take this $Type with my blessings.
+- $PlayerName, i see that you have no $Type. Take this with my blessings!
+- $PlayerName, you seem to need a $Type. Take this.
+- $PlayerName, you need some $Type. Take this with my blessings!
+- $PlayerName, you should have a $Type. Take this with my blessings!
+GodToBelieverHolyArtifactBlessing:
+- Here my child. Use this to spread the cold in $ServerName!
+GodToBelieversSlayQuestFailed:
+- My Children, I am displeased in you. You have failed to perform this simple task for me...
+GodToBelieversLostBeliever:
+- $PlayerName has lost his faith in me. I do no longer feel him as part of our religion...
+GodToBelieversRemovedPriest:
+- Oh no! I find myself having no priest! I must find a priest to do my bidding!
+GodToBelieversSlayQuestCompleted:
+- Well done my children! You have shown your faith in my commands. Here is your reward!
+GodToBelieversSlayQuestStarted:
+- My children! I need you to slay $Amount $Type in my honor!
+- My children, show your faith in me! I need you to slay $Amount $Type in my honor!
+- The time has come to show your faith in me! I need you to slay $Amount $Type in my honor!
+- Now hear this, my Children! You must go forth and slay $Amount $Type in my honor!
+GodToBelieversSlayQuestProgress:
+- Well done my children! Just $Amount $Type left to slay!
+GodToBelieversSlayQuestStatus:
+- My children, you still need to slay $Amount $Type in my honor!
+GodToBelieversBuildAltarsQuestStarted:
+- My children! I need you to build $Amount new altars in my honor!
+- My children, you must show your faith in me! I need you to build $Amount more altars in my honor!
+- The time has come to show your faith in me! I need you to build $Amount new altars in my honor!
+- Now hear this, my Children! You must go forth and build $Amount new altars in my honor!
+GodToBelieversBuildAltarsQuestStatus:
+- My children, you still need to build $Amount altars in my honor!
+- Remember, you must still build $Amount altars in my honor!
+GodToBelieversBuildAltarsQuestProgress:
+- Well done my children! Only $Amount altars left to build in my honor!
+- Very good! You only need to build $Amount more altars in my honor!
+GodToBelieversBuildAltarsQuestCompleted:
+- Well done my children! You have shown your faith in my commands. Here is your reward!
+GodToBelieversBuildAltarsQuestFailed:
+- My Children, I am displeased in you. You have failed to perform this simple task for me...
+GodToBelieversBuildTowerQuestStarted:
+- My children! I need you to build a tower $Amount blocks tall in my honor!
+GodToBelieversBuildTowerQuestStatus:
+- Remember, you must build my $Type tower of height $Amount in my honor!
+GodToBelieversBuildTowerQuestProgress:
+- Well done my children! Only $Amount blocks left to build on the tower in my honor!
+GodToBelieversBuildTowerQuestCompleted:
+- Well done my children! You have shown your faith in my commands. Here is your reward!
+GodToBelieversBuildTowerQuestFailed:
+- My Children, I am displeased in you. You have failed to perform this simple task for me...
+GodToBelieversSacrificeQuestStarted:
+- My children! I need you to burn $Amount $Type as a sacrifice to me!
+- My children! I ask you now to burn $Amount $Type as a sacrifice to me!
+GodToBelieversSacrificeQuestStatus:
+- My children, you must sacrifice $Amount $Type to me! Burn them by fire!
+GodToBelieversSacrificeQuestProgress:
+- Well done my children! Only $Amount $Type left to sacrifice in my honor!
+GodToBelieversSacrificeQuestCompleted:
+- Well done my children! You have shown your faith in my commands. Here is your reward!
+GodToBelieversSacrificeQuestFailed:
+- My Children, I am displeased in you. You have failed to perform this simple task for me...
+GodToBelieversConvertQuestStarted:
+- My children! I need you to turn $Amount non-believers away from the darkness and into our religion!
+- My children! I need you to convert $Amount people from their false beliefs and into our religion!
+- My children, you must show $Amount heathens the true ways of our faith!
+- My children, you must guide $Amount non-believers into the light of our religion!
+GodToBelieversConvertQuestStatus:
+- My children, you must still turn $Amount heathens from the dark side into our religion!
+- Remember, you must still convince $Amount non-believers to join our religion!
+GodToBelieversConvertQuestProgress:
+- Well done, my children! $Amount heathens left to be converted to our side!
+- Glorius, another believer sees our light! Only $Amount left to convert!
+GodToBelieversConvertQuestCompleted:
+- Well done my children! You have shown your faith and gathered believers into our religion. Here is your reward!
+GodToBelieversConvertQuestFailed:
+- My Children, I am displeased in you. You have failed to perform this simple task for me...
+GodToBelieversGiveBiblesQuestStarted:
+- My children, hear this! You must now go and let $Amount heathens read our Holy Book!
+- My children, you must show $Amount non-believers the true path by letting them read our Holy Book!
+GodToBelieversGiveBiblesQuestStatus:
+- My children, you must still let $Amount more non-believers read our Holy Book!
+- Remember, you must still let $Amount more non-believers read our Holy Book!
+GodToBelieversGiveBiblesQuestProgress:
+- Well done, my children! $Amount heathens left to be converted to our side!
+- Very good, another believer sees our light! Only $Amount more non-believers must read our Holy Book!
+- Very good, $PlayerName has read $Type! Only $Amount more non-beleivers must read our Holy Book!
+GodToBelieversGiveBiblesQuestCompleted:
+- Well done my children! You have shown your faith shown non-believers the light of our religion. Here is your reward!
+- I am proud of you, my children! You have shown our words of truth to the non-believers! Here is your reward!
+GodToBelieversGiveBiblesQuestFailed:
+- My Children, I am displeased in you. You have failed to perform this simple task for me...
+GodToBelieversBurnBiblesQuestStarted:
+- My children, you must BURN $Amount $Type in my honor!
+- The nasty of religion of $PlayerName is a insult to us! Let us BURN their pityful holy book!
+- My Children, the time has come to BURN those nasty holy books of $PlayerName!
+GodToBelieversBurnBiblesQuestStatus:
+- Remember, you must BURN $Amount more $Type in my honor!
+- My children, BURN their unholy books of $PlayerName! Do not let them pollute this world!
+- You BURN the $Type! Do not let them pollute this world!
+GodToBelieversBurnBiblesQuestProgress:
+- Well done, my children! Only $Amount $Type left to BURN in my honor!
+- Glorious, my children! Let us BURN $Amount more in my honor!
+GodToBelieversBurnBiblesQuestCompleted:
+- Well done my children! You have ridden the world of $Type! Here is your reward!
+GodToBelieversBurnBiblesQuestFailed:
+- My Children, I am displeased in you. You have not shown respect for our holy food...
+GodToBelieversHolyFeastQuestStarted:
+- My children, you must hold a feast! Eat $Amount $Type in my honor!
+- My children, celebrate our faith and eat $Amount $Type in my honor!
+- Let us celebrate the wonder of $Type! You must eat $Amount of them in my honor!
+GodToBelieversHolyFeastQuestStatus:
+- My children, you must feast and eat $Amount more $Type in my honor!
+- My children, let us celebrate the glory of $Type! Eat $Amount $Type more in my honor!
+GodToBelieversHolyFeastQuestProgress:
+- Well done, my children! Only $Amount $Type left to eat in my honor!
+- Glorious, my children! Only $Amount $Type left to eat in my honor!
+GodToBelieversHolyFeastQuestCompleted:
+- Well done my children! You have feasted well. Here is your reward!
+- That was a wonderful eating part and you have eaten well. Here is your reward!
+GodToBelieversHolyFeastQuestFailed:
+- My Children, I am displeased in you. You have shown no respect for our holy food...
+GodToBelieversCrusadeQuestStarted:
+- My children, it is time to show those non-believers who hold the truth in $ServerName!
+- Grab your swords, my children! We must rid $ServerName from the heathens!
+GodToBelieversCrusadeQuestStatus:
+- My children, you must slay $Amount more non-believers in my honor!
+GodToBelieversCrusadeQuestProgress:
+- Well done, my children! Only $Amount non-believers left to kill in my honor!
+GodToBelieversCrusadeQuestCompleted:
+- Well done my children! You have uphold the justice in &6$ServerName&f. Here is your reward!
+GodToBelieversCrusadeQuestFailed:
+- My Children, you have FAILED to get my &6$Type&f first. I am very dissapointed...
+- Oh no! You did not fetch me &6$Type&f in time...
+GodToBelieversHolyBattleQuestStarted:
+- My children, it is time to show those non-believers who hold the truth in $ServerName!
+- Grab your swords, my children! We must rid $ServerName from the heathens!
+GodToBelieversHolyBattleQuestStatus:
+- My children, you must slay $Amount more non-believers in my honor!
+GodToBelieversHolyBattleQuestProgress:
+- Well done, my children! Kill those infidels!
+- Well done, my children! Slay them all!
+GodToBelieversHolyBattleQuestCompleted:
+- Well done my children! You have uphold the justice in $ServerName. Here is your reward!
+GodToBelieversHolyBattleQuestFailed:
+- My Children, you have FAILED to reach the temple of $PlayerName first. I am dissapointed...
+- Oh no! We did not reach the temple of $PlayerName in time...
+GodToBelieversPilgrimageQuestStarted:
+- My children, you must travel to the $Type! Go there and you shall be rewarded!
+GodToBelieversPilgrimageQuestStatus:
+- My children, you must hurry! Travel to the $Type!
+- My children, when you arrive at the $Type, you will all be rewarded!
+- Show your faith in me by travelling to the $Type!
+- Remember, you must travel to our the holy $Type!
+GodToBelieversPilgrimageQuestProgress:
+- Well done, my children!
+GodToBelieversPilgrimageQuestCompleted:
+- I am proud of you my children! You travelled far and completed your goal. Here is your reward!
+- Well done! You travelled far in the name of frost. Here are your rewards!
+GodToBelieversPilgrimageQuestFailed:
+- My Children, I am displeased in you. You have not shown respect for our faith...
+- My Children, I am displeased in you. You have failed to complete this simple task for me...
+GodToBelieversGetHolyArtifactThisQuestStarted:
+- My children, I have just remembered that I left a $Type while visiting my believers 500 years ago! Retrieve it before it fall into the wrong hands!
+- OH NO!, I have just remembered that I left a $Type while visiting my believers 500 years ago! Retrieve it before it fall into the wrong hands!
+GodToBelieversGetHolyArtifactOtherQuestStarted:
+- My children, $PlayerName has carelessly left a $Type in an ancient temple! We MUST go and get it for our own purposes!
+- I have just learned that $PlayerName has carelessly left a $Type in an ancient temple! We MUST get it for ourselves!
+GodToBelieversGetHolyArtifactThisQuestStatus:
+- My children, please hurry! Find my lost $Type before it is too late!
+- Our holy book will guide you to my lost $Type! Go now!
+- My children, you must follow our Holy Creature to my $Type before it is too late!
+- Hurry! Go to the lost temple and get my $Type before it is too late!
+- We must get to the temple and get the lost $Type before it is too late!
+- I cannot believe I was so careless to leave my $Type in that temple...
+- Use our Holy Book and let our Holy Creature show you the way to the lost temple!
+- Our Holy Book will show guide you to my $Type!
+- Please, do not let my $Type get into the hand of the false Gods!
+GodToBelieversGetHolyArtifactOtherQuestStatus:
+- My children, please hurry! Find the lost $Type of $PlayerName before they get to it!
+- The Holy Creature will guide you to the lost temple of $PlayerName! Go now!
+- My children, follow our Holy Creature to the lost $Type of $PlayerName before it is too late!
+- Hurry! We must get that $Type before anyone else!
+- $PlayerName is such a FOOL to leave that $Type lying around in a temple...
+- Show those foolish followers of $PlayerName who has the true power in this world!
+- The foolish $PlayerName will see our power when we take their precious $Type right before their eyes!
+- Remember, we must still get to the $Type before anyone else!
+- Use our Holy Book and let our Holy Creature show you the way to the lost $Type!
+- Do not let that $Type get into the hand of the foolish followers of $PlayerName!
+GodToBelieversGetHolyArtifactQuestProgress:
+- Well done, my children! Only $Amount non-believers left to kill in my honor!
+GodToBelieversGetHolyArtifactThisQuestCompleted:
+- WELL DONE! You have saved my $Type from falling into the wrong hands of other Gods. Here is your reward!
+- I am proud of you! You have prevented my $Type from falling into the wrong hands of other Gods. Here is your reward!
+GodToBelieversGetHolyArtifactThisQuestFailed:
+- Oh no... My $Type have fallen into the hand of another faith... You have failed me...
+- Oh no... My $Type is lost to the false Gods... We have failed...
+GodToBelieversGetHolyArtifactOtherQuestCompleted:
+- WELL DONE! We succesfully claimed the $Type of $PlayerName for ourselves! I can almost hear $PlayerName crying now! Here is your reward!
+- HAHA! We succesfully took $PlayerName's $Type away right infront of their eyes! $PlayerName is such a fool! Here is your reward!
+GodToBelieversGetHolyArtifactOtherQuestFailed:
+- 'NOO... The $Type of was retrieved by the followers of $PlayerName . Such a shame... '
+GodToBelieversClaimHolyLandQuestStarted:
+- My children, we must claim the Holy Land of $type!
+GodToBelieversClaimHolyLandQuestStatus:
+- My children, you must hurry! Claim the Holy land of $Type before the false Gods!
+GodToBelieversClaimHolyLandQuestProgress:
+- Well done, my children! Only $Amount more second to hold non-believers left to kill in my honor!
+GodToBelieversClaimHolyLandQuestCompleted:
+- I am proud of you my children! You travelled far and completed your goal. Here is your reward!
+GodToBelieversClaimHolyLandQuestFailed:
+- My Children, I am displeased in you. You have not shown respect for our faith...
+GodToBelieverGoodSacrifice:
+- $PlayerName, you are a TRUE believer!
+- Thank you, $PlayerName!
+- Well done, $PlayerName!
+- Yes, $PlayerName! Bring me more $Type
+- Excellent sacrifice, $PlayerName!
+- Thank you $PlayerName, for your sacrifice of $Type!
+- A most glorious sacrifice $PlayerName!
+- Yes $PlayerName! $Type is indeed a proper sacrifice!
+- This is perfect $PlayerName! $Type is just what i require for our cause!
+GodToBelieverMehSacrifice:
+- I require no $Type at this time, $PlayerName.
+- $PlayerName, please do not sacrifice more $Type for now.
+- Very genorous $PlayerName, but i do not require this $Type.
+- That is a nice gesture $PlayerName, but i do not require more $Type.
+- That is appreciated $PlayerName, but do not give me more $Type for now.
+- A nice thought, $PlayerName. But i do not requite $Type at this time.
+GodToBelieverBadSacrifice:
+- $PlayerName, stop giving me $Type!
+- $PlayerName, stop sending me those dreaded $Type!
+- $PlayerName, I had enough of your $Type!
+GodToBelieverHolyFoodSacrifice:
+- $PlayerName, $Type is our sacred food! You must NEVER burn that!
+- $Type is our most holy food! How dare you throw it into the flames!
+- $PlayerName, how dare you insult our holy $Type!
+GodToBelieverCursedAngry:
+- I am dismayed at your lack of attention $PlayerName! Feel my wrath!
+- You have NOT shown respect have angered me!
+- $PlayerName, you have angered me! You must pray harder and listen to my words!
+- $PlayerName, you have angered me and you must suffer!
+- 'You have not paid attention to my words! You have all angered me and you must suffer! '
+- I am very disturbed at your lack of faith! You will suffer!
+GodToBelieverSmiteBlessing:
+- Do NOT attack $PlayerName! Take this!
+- No! Do not attack $PlayerName!
+- Get away from $PlayerName!
+GodToBelieversAltarDestroyedByPlayer:
+- $PlayerName just destroyed our altar!
+- Our altar was destroyed by $PlayerName!
+GodToBelieversAltarDestroyed:
+- Our altar was destroyed!
+GodToBelieversSetHome:
+- $PlayerName just specified his location as our home!
+GodToBelieversWar:
+- We are now at WAR with ungodly believers of $PlayerName! Kill them and make me proud!
+- My children, we are now at WAR with $PlayerName! Kill them all on sight!
+GodToBelieversAlliance:
+- We have joined forces with $PlayerName! Welcome our brothers!
+- The believers of $PlayerName are now our allies! Let us work together!
+- The followers of $PlayerName are now brothers and sisters in faith!
+GodToBelieversWarCancelled:
+- We are no longer at WAR with $PlayerName!
+GodToBelieversAllianceCancelled:
+- We are no longer allied with $PlayerName!
+GodToBelieversSacrificeItemType:
+- Show your faith in me! Sacrifice some $Type in my name!
+- My children, i require some $Type from you! Sacrifice it to me!
+- My children, i must have some $Type! Sacrifice it to me!
+- My children, go forth and sacrifice some $Type in my name!
+- 'I ask of you all: Gather some $Type and Sacrifice it to me by fire!'
+DefaultBibleText1:
+- 'Before time, there was a cold room. Then, through a door, $PlayerName entered the room, booted up the server and installed minecraft. $PlayerName nodded and thus spake: ''Let''s rock...'
+- 'In the beginning there was only darknesss. Then out of nothing, $PlayerName created the BLOCKS. $PlayerName saw it was good and thus spake: ''Cool'''
+- 'From the darknesss, $PlayerName made light and from the light he made $ServerName. $PlayerName saw it was good and thus spake: ''I rock!'
+- 'In only 3 days $PlayerName made the world from a single block of dirt. $PlayerName saw that it was good and thus spake: ''I shall call it ... $ServerName!'''
+DefaultBibleText2:
+- Next, $PlayerName decided to populate the fields with life. First among living things was the original mob. It was named '$Type - The firstborn'.
+- $PlayerName gave life to the world and through infinite wisdom, decided to spawn some mobs. And first among them was the $Type.
+- '$PlayerName mumbled to himself "Hmm, this map sux... Oh, I know: Let''s have some mobs!". And $PlayerName started to spawn some $Type!'
+DefaultBibleText3:
+- '$PlayerName saw that his poor creation was starving and thus spake: "Lo and behold:
+  A $Type! You must eat it!"'
+- '$PlayerName could see that his poor creation hungry and therefore said to it: "Here,
+  have some $Type! That is serious good eating, trust me!"'
+DefaultBibleText4:
+- 'And thus $PlayerName spoke upon his creation and said: "You are to eat all things
+  in $ServerName except the $Type! That, you must never eat!"'
+- '$PlayerName turned to his creation and spoke: "You may eat all things in $ServerName
+  except the $Type! You must never eat the $Type! $Type is not for eating! Is that
+  clear enough?"'
+- '$PlayerName said: "Hey yo! You can eat whatever you want here in $ServerName but
+  NOT any $Type! Keep your hands off $Type and all is cool, OK?"'
+- '$PlayerName now said: "You can eat anything you want here in $ServerName but i
+  pity the fool that eats any $Type! Anyone who eats $Type will feel my wrath!"'
+DefaultBibleText5:
+- But alas, on $PlayerName's first and only fishing day, the foul $Type crept upon his innocent creation and tempted the firstborn to eat the very forbidden food which $PlayerName had warned him about!
+- And so, $PlayerName's took a day off. But when he returned he saw a $Type sitting on his innocent creation laughing while shoving the forbidden food down the throat of the firstborn!
+DefaultBibleText6:
+- '$PlayerName was furious when learning about this event and cursed the $Type saying:
+  "Forever will you and your kind be cursed! You shall be hunted down and slain whereever
+  you are found!"'
+- '$PlayerName went angered and took the $Type by the throat, saying: "You just messed
+  with the wrong God, dude! You better watch your back when walking down the street
+  in the future, PUNK!"'
+DefaultBibleText7:
+- '"Never again shall anyone eat the nasty $Type!" said $PlayerName. "Forever shall
+  it be the cursed food!"'
+- '$PlayerName thus spake: "Henceforth let it be known that $Type is the cursed food!".
+  And behold: The very skies soon filled with burning $Type as a symbol of $PlayerName''s
+  will.'
+GodToPriestUseBible:
+- $PlayerName, use our Holy Book to let others see learn the ways of our religion!
+- $PlayerName, spread the word using our Holy Book! Give it to non-believers to they may join us!
+- $PlayerName, give our Holy Book to others so they may see the truth of our religion!
+- Remember $PlayerName, you must spread the truth by giving out our Holy Book to others!
+- $PlayerName, you must spread our words by giving the $Type to others!
+- $PlayerName, read from $Type so that others may see the light!
+GodToPriestUseProphecies:
+- $PlayerName, I have seen what will happen! My prophecies are written in our Holy Book!
+- $PlayerName, let our believers know about my prophecies! Read from our Holy Book!
+- $PlayerName, read my prophecies to the non-believers so that they will see the truth of our religion!
+- Remember $PlayerName, my prophecies are written in our Holy Book!
+ProphecyHeaderBibleText:
+- The Prophecies of $PlayerName                                                       These are things I foreseen will come to happen in TestWorld.
+UnholyMobWillBeSlainFutureProphecyBibleText:
+- A champion will slay the nasty $Type in the glory of my name.
+UnholyMobWillBeSlainPastProphecyBibleText:
+- The unholy $Type was slain by the mighty $PlayerName
+StormProphecyEffectPastBibleText:
+- ' and the skies darkened and storms raged across the lands!'
+StormProphecyEffectFutureBibleText:
+- ' and storms will sweep the lands!'
+DragonBossWillBeSlainFutureProphecyBibleText:
+- The Dragon Lord $PlayerName will be slain by a mighty champion!
+DragonBossWillBeSlainPastProphecyBibleText:
+- The Dragon Lord $PlayerName was slain
+DragonBossProphecyEffectPastBibleText:
+- ' and the Dragon Lord $PlayerName appeared and ruled the land of $ServerName with
+  terror'
+DragonBossProphecyEffectFutureBibleText:
+- ' and the Dragon Lord $PlayerName will appear and rule the land of $ServerName with
+  terror'
+HolyFoodRainProphecyEffectBibleText:
+- Rejoice! All the prophecies in $PlayerName has been fulfilled!
+DarknessProphecyEffectBibleText:
+- Rejoice! All the prophecies in $PlayerName has been fulfilled!
+HeathenWillBeSlainProphecyEffectBibleText:
+- Rejoice! All the prophecies in $PlayerName has been fulfilled!
+BelieverWillLeaveReligionProphecyBibleText:
+- The cowardly $PlayerName left our faith, turning to madness
+GodToBelieversProphecyFulfilled:
+- $PlayerName fullfilled a prophecy of $Type!
+GodToBelieversAllPropheciesFulfilled:
+- Rejoice! All the prophecies in $PlayerName has been fulfilled!

@@ -1,0 +1,71 @@
+# artron energy
+player: 25
+random: 75
+random_circuit: 150
+travel: 100
+comehere: 400
+hide: 500
+nether_min: 4250
+the_end_min: 5500
+recharge_distance: 20
+lightning_recharge: 300
+creeper_recharge: 150
+full_charge: 5000
+full_charge_item: NETHER_STAR
+autonomous: 100
+backdoor: 100
+siege_transfer: 10
+siege_deplete: 100
+siege_creeper: 150
+siege_ticks: 1500
+standby: 5
+standby_time: 6000
+jettison: 75
+jettison_seed: TNT
+render: 250
+zero: 250
+upgrades:
+  ars: 5000
+  bigger: 7500
+  budget: 5000
+  coral: 8000
+  deluxe: 10000
+  eleventh: 10000
+  ender: 5000
+  legacy_bigger: 7500
+  legacy_budget: 5000
+  legacy_deluxe: 10000
+  legacy_eleventh: 10000
+  legacy_redstone: 8000
+  master: 10000
+  plank: 5000
+  pyramid: 5000
+  redstone: 7500
+  steampunk: 5000
+  tom: 5000
+  twelfth: 7500
+  war: 5000
+  custom: 10000
+  archive:
+    small: 5000
+    medium: 7500
+    tall: 10000
+  template:
+    small: 1666
+    medium: 2500
+    tall: 3333
+just_wall_floor: 50
+artron_furnace:
+  burn_limit: 100000
+  burn_time: 0.5
+  cook_time: 0.5
+  set_biome: true
+  particles: true
+sonic_generator:
+  standard: 10
+  bio: 10
+  diamond: 10
+  emerald: 10
+  redstone: 10
+  painter: 10
+  ignite: 10

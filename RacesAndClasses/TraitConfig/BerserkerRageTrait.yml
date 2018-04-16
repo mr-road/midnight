@@ -1,0 +1,4 @@
+trait:
+  uplink: 60
+  duration: 10
+  activationLimit: 30

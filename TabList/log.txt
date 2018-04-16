@@ -1,0 +1,265 @@
+2018.04.02 - 17:30:36 - [INFO][TabList] Create new config(s) for you...
+2018.04.02 - 17:30:36 - [INFO][TabList] The 'config.yml' file successfully created!
+2018.04.02 - 17:30:36 - [INFO][TabList] The 'messages.yml' file successfully created!
+2018.04.02 - 17:30:36 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 17:30:36 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 17:30:37 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 17:30:37 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 17:31:52 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 17:31:52 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 17:31:53 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 17:31:53 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 17:33:36 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 17:33:36 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 17:33:37 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 17:33:37 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 17:38:24 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 17:38:24 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 17:38:25 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 17:38:25 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 17:41:58 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 17:41:58 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 17:41:58 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 17:41:58 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 19:06:51 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 19:06:51 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 19:06:52 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 19:06:52 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 19:32:20 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 19:32:20 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 19:32:21 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 19:32:21 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 19:51:09 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 19:51:09 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 19:51:11 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 19:51:11 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 20:16:23 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 20:16:23 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 20:16:24 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 20:16:24 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 21:03:40 - [WARNING][TabList] Could not find PlaceholderAPI!
+2018.04.02 - 21:03:40 - [INFO][TabList] PlaceholderAPI Download: https://www.spigotmc.org/resources/placeholderapi.6245/
+2018.04.02 - 21:03:41 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 21:03:41 - [INFO][TabList] Metrics enabled.
+2018.04.02 - 21:10:14 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.02 - 21:10:14 - [INFO][TabList] You're running the latest version.
+2018.04.02 - 21:10:14 - [INFO][TabList] Metrics enabled.
+2018.04.06 - 21:45:17 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.06 - 21:45:17 - [INFO][TabList] You're running the latest version.
+2018.04.06 - 21:45:17 - [INFO][TabList] Metrics enabled.
+2018.04.07 - 13:20:19 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.07 - 13:20:20 - [INFO][TabList] You're running the latest version.
+2018.04.07 - 13:20:20 - [INFO][TabList] Metrics enabled.
+2018.04.07 - 15:50:14 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.07 - 15:50:14 - [INFO][TabList] You're running the latest version.
+2018.04.07 - 15:50:14 - [INFO][TabList] Metrics enabled.
+2018.04.07 - 17:04:50 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.07 - 17:04:51 - [INFO][TabList] You're running the latest version.
+2018.04.07 - 17:04:51 - [INFO][TabList] Metrics enabled.
+2018.04.07 - 19:45:51 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.07 - 19:45:51 - [INFO][TabList] You're running the latest version.
+2018.04.07 - 19:45:52 - [INFO][TabList] Metrics enabled.
+2018.04.07 - 21:46:48 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.07 - 21:46:48 - [INFO][TabList] You're running the latest version.
+2018.04.07 - 21:46:48 - [INFO][TabList] Metrics enabled.
+2018.04.08 - 15:10:27 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.08 - 15:10:27 - [INFO][TabList] You're running the latest version.
+2018.04.08 - 15:10:27 - [INFO][TabList] Metrics enabled.
+2018.04.08 - 15:11:59 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.08 - 15:11:59 - [INFO][TabList] You're running the latest version.
+2018.04.08 - 15:11:59 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:08:09 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:08:09 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:08:10 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:10:20 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:10:20 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:10:20 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:12:12 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:12:12 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:12:12 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:21:49 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:21:50 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:21:50 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:31:09 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:31:10 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:31:10 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:31:48 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:31:48 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:31:48 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:35:06 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:35:06 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:35:06 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 14:37:23 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 14:37:23 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 14:37:23 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 16:00:45 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 16:00:45 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 16:00:45 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 16:04:40 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 16:04:40 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 16:04:40 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 16:35:26 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 16:35:27 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 16:35:27 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 19:15:43 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 19:15:43 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 19:15:43 - [INFO][TabList] Metrics enabled.
+2018.04.09 - 21:44:12 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.09 - 21:44:12 - [INFO][TabList] You're running the latest version.
+2018.04.09 - 21:44:12 - [INFO][TabList] Metrics enabled.
+2018.04.10 - 21:20:22 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.10 - 21:20:22 - [INFO][TabList] You're running the latest version.
+2018.04.10 - 21:20:22 - [INFO][TabList] Metrics enabled.
+2018.04.10 - 22:38:56 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.10 - 22:38:56 - [INFO][TabList] You're running the latest version.
+2018.04.10 - 22:38:56 - [INFO][TabList] Metrics enabled.
+2018.04.10 - 22:46:46 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.10 - 22:46:46 - [INFO][TabList] You're running the latest version.
+2018.04.10 - 22:46:46 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 11:27:25 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 11:27:26 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 11:27:26 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 14:19:44 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 14:19:44 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 14:19:44 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 14:27:48 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 14:27:48 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 14:27:48 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 14:36:08 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 14:36:09 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 14:36:09 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 14:42:09 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 14:42:09 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 14:42:09 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 14:51:45 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 14:51:45 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 14:51:45 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 14:56:36 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 14:56:36 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 14:56:36 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 15:00:44 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 15:00:44 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 15:00:44 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 15:09:45 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 15:09:45 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 15:09:45 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 15:11:02 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 15:11:02 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 15:11:02 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 15:26:36 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 15:26:36 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 15:26:36 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:01:47 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:01:47 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:01:47 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:15:01 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:15:02 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:15:02 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:16:59 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:17:00 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:17:00 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:20:19 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:20:19 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:20:19 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:30:07 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:30:08 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:30:08 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:34:51 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:34:51 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:34:51 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:36:59 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:37:00 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:37:00 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:42:14 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:42:14 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:42:14 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:48:00 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:48:00 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:48:00 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:51:43 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:51:43 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:51:43 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 16:53:18 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 16:53:18 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 16:53:18 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 20:46:37 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 20:46:37 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 20:46:37 - [INFO][TabList] Metrics enabled.
+2018.04.11 - 22:20:18 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.11 - 22:20:18 - [INFO][TabList] You're running the latest version.
+2018.04.11 - 22:20:18 - [INFO][TabList] Metrics enabled.
+2018.04.12 - 00:48:16 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.12 - 00:48:16 - [INFO][TabList] You're running the latest version.
+2018.04.12 - 00:48:16 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 08:45:13 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 08:45:13 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 08:45:13 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 09:37:24 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 09:37:25 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 09:37:25 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 09:46:57 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 09:46:57 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 09:46:57 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 12:21:38 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 12:21:38 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 12:21:38 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 13:28:52 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 13:28:52 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 13:28:52 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 13:38:45 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 13:38:45 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 13:38:45 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 13:55:58 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 13:55:58 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 13:55:58 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 14:06:15 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 14:06:16 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 14:06:16 - [INFO][TabList] Metrics enabled.
+2018.04.13 - 14:12:00 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.13 - 14:12:00 - [INFO][TabList] You're running the latest version.
+2018.04.13 - 14:12:00 - [INFO][TabList] Metrics enabled.
+2018.04.14 - 19:46:15 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.14 - 19:46:15 - [INFO][TabList] You're running the latest version.
+2018.04.14 - 19:46:15 - [INFO][TabList] Metrics enabled.
+2018.04.14 - 21:47:23 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.14 - 21:47:24 - [INFO][TabList] You're running the latest version.
+2018.04.14 - 21:47:24 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 09:58:32 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 09:58:32 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 09:58:32 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 10:29:15 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 10:29:15 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 10:29:15 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 10:35:08 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 10:35:08 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 10:35:08 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 14:02:43 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 14:02:43 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 14:02:43 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 14:04:52 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 14:04:52 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 14:04:52 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 19:51:42 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 19:51:42 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 19:51:42 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 19:55:03 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 19:55:04 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 19:55:04 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 20:52:18 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 20:52:18 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 20:52:18 - [INFO][TabList] Metrics enabled.
+2018.04.15 - 20:55:30 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.15 - 20:55:30 - [INFO][TabList] You're running the latest version.
+2018.04.15 - 20:55:30 - [INFO][TabList] Metrics enabled.
+2018.04.16 - 00:56:32 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.16 - 00:56:33 - [INFO][TabList] You're running the latest version.
+2018.04.16 - 00:56:33 - [INFO][TabList] Metrics enabled.
+2018.04.16 - 11:59:00 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.16 - 11:59:00 - [INFO][TabList] You're running the latest version.
+2018.04.16 - 11:59:00 - [INFO][TabList] Metrics enabled.
+2018.04.16 - 12:06:09 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.16 - 12:06:09 - [INFO][TabList] You're running the latest version.
+2018.04.16 - 12:06:09 - [INFO][TabList] Metrics enabled.
+2018.04.16 - 13:47:40 - [INFO][TabList] Hooked PlaceholderAPI version: 2.8.5
+2018.04.16 - 13:47:40 - [INFO][TabList] You're running the latest version.
+2018.04.16 - 13:47:40 - [INFO][TabList] Metrics enabled.

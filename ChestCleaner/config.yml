@@ -1,0 +1,10 @@
+messages:
+- '&cI''m sorry, but you do not have permission to perform this command.'
+- '&cYou can sort your next inventory in &4%cooldown% sec.'
+- '&aInventory sorted.'
+cleaningItem:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_HOE
+active: true
+durability: true
+timer: false

@@ -1,0 +1,19 @@
+Mage:
+  config:
+    tag: '[Mage]'
+    healthbonus: 5
+    guislot: -1
+    armor: gold,diamond
+  traits:
+    RegenerationTrait:
+      operation: +
+      value: 0.1
+    FallResistanceTrait:
+      operation: '*'
+      value: 0.5
+    FireResistanceTrait:
+      operation: '*'
+      value: 0.5
+    LavaResistanceTrait:
+      operation: '*'
+      value: 0.5

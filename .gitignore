@@ -1,0 +1,15 @@
+RacesAndClasses/Debug/Backup/**
+FastAsyncWorldEdit/history/**
+FastAsyncWorldEdit/clipboard/**
+dynmap/web/tiles/**
+Skript/backups/**
+Towny/backup/**
+mcMMO/backup/**
+SkillAPI/players/**
+RecipeManager/save/**
+RacesAndClasses/PlayerDataYML/**
+Quests/data/**
+**/debug.log*
+Essentials/userdata/**
+BuildersWand/storage/**
+CoreProtect/database.db

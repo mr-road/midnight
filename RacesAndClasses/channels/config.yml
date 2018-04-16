@@ -1,0 +1,25 @@
+chat:
+  channel:
+    default:
+      color: '&2'
+      format: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+    race:
+      default:
+        color: '&3'
+        format: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+    world:
+      default:
+        color: '&4'
+        format: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+    global:
+      default:
+        color: '&5'
+        format: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+    local:
+      default:
+        color: '&f'
+        format: '{color}[Local] &f{prefix}{sender}{suffix}{color}: {msg}'
+      range: 100
+    format:
+      join: '{color}[{nick}] Player: &f[{sender}] {color}has joined the Channel.'
+      leave: '{color}[{nick}] Player: &f[{sender}] {color} has left the Channel.'

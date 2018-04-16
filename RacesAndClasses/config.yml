@@ -1,0 +1,691 @@
+#ConfigTotal for RacesAndClasses
+#TemplateVersion 24
+
+
+######
+#CHAT#
+######
+
+# Tells if the Whispersystem is enabled. 
+# boolean: true or false 
+# default: true 
+chat_whisper_enable: true
+
+# Shows if Races should talk with encrypted messages. 
+# boolean: true or false 
+# default: true 
+# NOTICE: Not implemented yet!
+chat_race_encryptForOthers: false
+
+# Tells if the Channels System is enabled. 
+# boolean: true or false 
+# default: true 
+chat_channel_enable: false
+
+# Disables the channel join / leave messages. 
+# boolean: true or false 
+# default: false 
+chat_disable_channel_join_leave_messages: false
+
+
+########
+#HEALTH#
+########
+
+# The default Health a player has when he has no Race. 
+# This can be a double (number with comma)
+# default: 20 
+health_defaultHealth: 20
+
+# Tells to use a Chat message as health Bar. 
+# boolean: true or false 
+# default: true 
+health_bar_inChat_enable: true
+
+# Tells the plugin to NOT use health modifications. 
+# boolean: true or false 
+# default: false 
+disable_health_modifications: false
+
+
+#######
+#DEBUG#
+#######
+
+# Tells the Plugin to enable Debug outputs. 
+# If activating, beware of console spam. 
+# boolean: true or false 
+# default: true 
+debug_outputs_enable: true
+
+# Tells the Plugin to upload errors that happened to tobiyas's Error Server. 
+# This server is located at: tobiyas.tk . 
+# boolean: true or false 
+# default: false 
+debug_outputs_errorUpload: false
+
+# Tells the Plugin to log all stuff to the console. 
+# boolean: true or false 
+# default: true 
+debug_outputs_writethrough: true
+
+
+#########
+#METRICS#
+#########
+
+# Tells the Plugin if The Server should participate on Metrics. 
+# To get more infos on Metrics, see 'www.mcstats.org'
+# boolean: true or false 
+# default: true 
+metrics_enable: false
+
+
+#########
+#UPDATER#
+#########
+
+# Tells the Plugin to auto-update when there is a new Release Version of the Plugin. 
+# The Updater used is from h31ix.
+# link: 'https://github.com/h31ix/Updater/blob/master/src/net/h31ix/updater/Updater.java'
+# boolean: true or false 
+# default: false 
+updater_enableAutoUpdates: false
+
+
+##########
+#LANGUAGE#
+##########
+
+# Tells the Plugin which language file to use. 
+# The language files are located at: 'plugins/RacesAndClasses/language/'.
+# String representing the language: en, de, es, it ...
+# default: en 
+# NOTICE: Not implemented yet.
+language_used: 'en'
+
+
+############
+#MULTIWORLD#
+############
+
+# All worlds to disable the Traits on. 
+# String list: example: [world1337,nonexistingWorld,...]
+# default: [] 
+worlds_disableOn: []
+
+# All regions to disable the Traits on. 
+# String list: example: [region12,tobiyas_region,...]
+# default: [] 
+disabled_regions: []
+
+# Tells the Plugin to reset the HP on change to disabled world. 
+# boolean: true or false
+# default: true 
+keep_max_hp_on_disabled_worlds: true
+
+
+#########
+#HOTKEYS#
+#########
+
+# If hotkeys are enabled. 
+# If true, /bindtrait will change your inventory to a Skill inventory.
+# default: true 
+hotkeys_enabled: true
+
+# If the new Hotkey System should be used. 
+# This system has 2 different Hot-Bars. One for build, one for Fight.
+# default: true 
+use_new_traitbind_system: true
+
+# The Material to use for Hotkeys. 
+# This is the Material to use for Hotkey Bar.
+# Materials are found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html 
+# default: SHEARS 
+hotkeys_material: 'SHEARS'
+
+# The slots that are not bindable and are persistent throughout the Skill Bar (in the new Hotbar System). 
+# The Slots may not be bound (0-8).
+# Example: [0,3,8].
+# default: [] 
+disabled_hotkey_slots: []
+
+# If set to true, hotkeys will check for Permissions when checking for Empty slots.
+# The Slots are associated to permission: RaC.hotkeyslot.0 to 9.
+# default: false
+use_permissions_for_hotkeys: false
+
+
+##############
+#Skill-System#
+##############
+
+# If the SkillSystem is enabled. 
+# If true, the users may pick their skills.
+# default: false 
+skills_useSkillSystem: false
+
+# If the SkillSystem is enabled, the player get points. 
+# This defines every how many levels the player get a point.
+# default: 5 
+skills_skillpointEveryXLevel: 5
+
+
+#############
+#Race Spawns#
+#############
+
+# This tells if the Race-Spawning Feature is enabled or not.. 
+# If it is enabled, players can get with '/racespawn' to their Race Spawns.
+# boolean: true or false 
+# default: true 
+race_spawns_enabled: true
+
+# When a player dies, he will spawn on his Race Spawn.
+# If this is set to false, the player NOT spawn to his race spawn.
+# boolean: true or false 
+# default: false 
+race_spawn_when_dead: false
+
+# Tells the cooldown for using /racespawn. 
+# The cooldown is in seconds. 300 -> 6 Minutes. 
+# integer: 0 - high number
+# default: 300 
+race_spawn_cooldown: 300
+
+
+######
+#Food#
+######
+
+# This tells to enable the Food addin.
+# If it is enabled, players can eat food that has the correct lores on them.
+# boolean: true or false 
+# default: true 
+food_enabled: true
+
+
+########
+#Groups#
+########
+
+# This tells the Plugin to use Groups.
+# If it is enabled, players can group up (with this plugin or another one).
+# boolean: true or false 
+# default: true 
+groups_enabled: true
+
+# This tells the Plugin which Group System to use.
+# There are currently the internal + some external plugins.
+# - RaC: RacesAndClasses own Group system.
+# - None: Disables the group system.
+# - Heroes: Use the party system of Heroes.
+# - McMMO: Use the party system of McMMO.
+# Group System: RaC, None, Heroes, Parties, McMMO
+# default: RaC 
+groups_system: 'RaC'
+
+
+#########
+#GENERAL#
+#########
+
+# This tells the Plugin to NOT check the Armor if turned off. 
+# If turned to true, the armor Checking of Races / Classes is Disabled.
+# boolean: true or false
+# default: false 
+general_armor_disableArmorChecking: false
+
+# This tells the plugin to NOT register the following commands. 
+# This is a list of commands that are disabled for the plugin.
+# String list: [command1,command2,...]
+# default: [] 
+general_disable_commands: []
+
+# This tells the plugin to remap own commands. The first command is replaced by the second one. 
+# This is to remap often used commands as /race or /playerinfo.
+# The replacesments work as following: command -> replacement. Example: racespawn->spawn.
+# String list: [command1->test12, command2->test123,...]
+# default: [] 
+general_command_remaps: []
+
+# This tells the plugin to NOT register the following aliases. 
+# This is a list of aliases that are disabled for the plugin.
+# String list: [alias1,alias2,...]
+# default: [] 
+general_disable_aliases: []
+
+# This is the cooldown between 2 messages when switching to the bow. 
+# number:  10  20   90   9001 ....# default: 10 
+general_cooldown_on_bow_message: 10
+
+# This is the cooldown between 2 messages when switching to the wand. 
+# number:  10  20   90   9001 ....# default: 10 
+general_cooldown_on_wand_message: 10
+
+# When removing old data, the days to check. 
+# If a player is not online for that long, his playerfile is removed.
+# The Value is in Days.
+# number:  10  20   90   9001 ....# default: 60 
+general_remove_old_data_days: 60
+
+# When removing old data, if to check if the file is empty.
+# Empty means, that the player has no Race / Class entry.
+# boolean: true or false
+# default: true
+general_remove_old_data_check_empty: true
+
+
+###############
+#Serialization#
+###############
+
+# This tells the Plugin which kind of Serializer to use.
+# Database uses the database defined below. YML uses yml files.
+# Disabled uses NO saving system.
+# Serializers are YML (files) or database or disabled.
+# String: yml or database or disabled
+# default: yml 
+serialize_serializer_to_use: 'yml'
+
+# If Player-Data should be pre-loaded on server start. 
+# If not enabled, the data is not loaded on start.
+# Data is loaded async. This means without blocking the main Thread.
+# Boolean: true or false
+# default: true 
+serialize_preload_data_async: true
+
+# If async pre-Loading is enabled, this is the amount to bulk load. 
+# If using database, a high number may crash the connection.
+# Number: some number
+# default: 100000 
+serialize_preload_bulk_amount: 100000
+
+# This tells the Plugin which DB-Connection Host to use. 
+# Serializers  only works with database.
+# String: host address
+# default: localhost 
+serialize_database_host: 'localhost'
+
+# This tells the Plugin which DB-Connection port to use. 
+# Serializers  only works with database.
+# number: port number
+# default: 3306 
+serialize_database_port: 3306
+
+# This tells the Plugin which DB-Connection Database to use. 
+# Serializers  only works with database.
+# String: Database Name
+# default: rac 
+serialize_database_db: 'rac'
+
+# This tells the Plugin which DB-Connection username to use. 
+# Serializers  only works with database.
+# String: username
+# default: root 
+serialize_database_username: 'root'
+
+# This tells the Plugin which DB-Connection password to use. 
+# Serializers  only works with database.
+# String: Password to use
+# default: password 
+serialize_database_password: 'password'
+
+# This tells the plugin to convert old data to the new Saving system. 
+# Works only for YML data.
+# Boolean: true or false
+# default: true 
+serialize_convert: true
+
+# This tells the plugin to convert yml data to db data or other way around, if present. 
+# WARNING: This may take some serious time!.
+# Boolean: true or false
+# default: false 
+serialize_convert_to_DB_or_file: false
+
+
+#####
+#GUI#
+#####
+
+# Enables to also use left clicks in Inventory GUIS.
+# boolean: true or false
+# default: true 
+gui_alsoUseLeftclickInGuis: true
+
+# Setting this to true will disable all Outputs to scoreboards from the plugin.
+# boolean: true or false
+# default: false 
+gui_scoreboard_disableAllOutputs: false
+
+# This is the top line on the Scoreboard.
+# ColorCodes are replaced by &, eg: &e -> yellow.
+# String: name (&eHallo)
+# default: &eRaC 
+gui_scoreboard_name: '&eRaC'
+
+# If the permanent Scoreboard should be used.
+# If used, this will clash with other scoreboard plugins.
+# Go to next category by leftclicking 3 ticks with air in hand.
+# boolean: true or false
+# default: false 
+gui_enable_permanent_scoreboard: false
+
+# If this is activated, the level MC level bar is overwritten as Level Indicator.
+# boolean: true or false
+# default: false 
+gui_level_useMCLevelBar: false
+
+# This is the format of the Action bar.
+# To disable it, set it to '' (empty).
+# Available values are:
+# Bars: %manabar%, %expbar%
+# Values: %mana%, %maxmana%, %level%, %exp%, %maxexp%
+# format: Format with colors
+# default: %manabar% &eLvL: %level%  &eExp: %expbar% 
+gui_actionbar_format: '%manabar%  &eLvL: %level%  &eExp: %expbar%'
+
+# If enabled, cooldowns will be displayed as Dragon Bars.
+# To disable it, set it to false.
+# boolean: Format with colors
+# default: false 
+gui_use_dragon_bar_for_cooldown: false
+
+
+############
+#MAGIC/MANA#
+############
+
+# Tells the plugin which Item to use as wand (magic spell cast item). 
+# int: itemID of the Item OR
+# String: The canonical Name of the Item. See: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html 
+# default: STICK 
+magic_wandId: 'STICK'
+
+# If this is activated, the Mana will be displayed in the Food bar.
+# boolean: true or false
+# default: false 
+magic_useFoodManaBar: false
+
+# This is ment to be used with the 'use_foodManaBar'.
+# It will regenerate the player X Health every Y seconds.
+# Example: 2#30  will heal 2 health every 30 seconds out of fight.
+# To turn it off, just put 0 as X (value to heal).
+# String: X#Y
+# default: 0#100 
+magic_outOfFightRegeneration: 0#100
+
+# The Mana Manager to use. This is the Mana System present and in use for this plugin.
+# This can be: RaC or MagicSpells
+# default: RaC 
+magic_manaManagerType: 'RaC'
+
+# If the Mana of a player refills while he sprints.
+# default: false 
+magic_manaRefillWhileSprinting: false
+
+# How much mana should be drained for Sprinting.
+# Can be 0 to disable this feature.
+# default: 1.5 
+magic_sprintingManaCost: 1.5
+
+# When the Mana should be drained while running.
+# This is in seconds. This means every X seconds Y mana is drained.# X is the Time here. Y is the mana in: 'magic_sprintingManaCost'.# default: 3 
+magic_sprintingManaDrainInterval: 3
+
+# If the plugin should use the XP-Bar as Mana display.
+# If on, the Minecraft EXP does not work any more.# default: false 
+magic_mana_use_xp_bar: false
+
+
+##########
+#LEVELING#
+##########
+
+# This is the Generator Polynome of the Level calculation. 
+# String: a string representing a polynome 
+# {level} will be replaced by the level of calculation.
+# If mcmmo is used as Level System, the Calculation will use McMMO skills.
+# The Skill name has to be written in {} eg. {mining}.
+# A valid calculator for McMMO would be: '({mining} + {excavation}) \ 20'
+# Be aware, that Math uses multiplication and division before addition and minus.
+# default: '{level} * {level} * {level} * 1000' 
+# By default, the the next level needs (level^3) * 1000 exp.
+level_mapExpPerLevelCalculationString: '{level} * {level} * {level} * 1000'
+
+# If a Firework should be fired on an Level Up. 
+# Boolean: true or false
+# default: true 
+use_fireworks_on_level_up: true
+
+# The max level, no one can get over.
+# If set to something below 0, there will not be any restriction.
+# Number: 0 to as much as you like
+# default: true 
+level_max_level: -1
+
+# A level Up message is sent when the level is increased. 
+# Boolean: true or false
+# default: true 
+use_levelup_message: true
+
+# This tells the Plugin which level system to use. 
+# It can use one of the following:.
+# - RaC: Races and Classes leveling System.
+# - MC: Minecraft Levels.
+# - SkillAPI: Leveling System from SkillAPI.
+# - mcMMO: Leveling System from McMMO. also check for the calculation String above.
+# - Heroes: Leveling System from Heroes. Level editing is not supported here. Only reading.
+# String: RaC or MC or SkillAPI or MCMMO or Heroes
+# default: RaC 
+level_useLevelSystem: 'RaC'
+
+# This tells the Plugin how much Custom EXP to give the player on an Entity kill. 
+# It is a list of Strings, which means they have to be seperated by a comma or be written below each other.
+# Each element in this list has two parts: EntityType=ExpAmount.
+# EntityType can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# The amount of EXP is an Integer value (0,1,2,3,4, ...).
+# List of String: [EntityType=AmountEXP,...]
+# default: [ZOMBIE=0,SKELETON=0,CREEPER=0,BLAZE=0,WITCH=0] 
+custom_level_exp_gain: [ZOMBIE=0, SKELETON=0, CREEPER=0, BLAZE=0, WITCH=0]
+
+# The NPCs to open the GUI for Race Selection. 
+# NPC names have to be the real names of the NPCs.
+# The Gui will open even if the GUI is disabled in Race Secion.
+# This field refers to NPCs in the plugin 'Citizens'.
+# String List: a list of NPC names.
+# default: [] 
+npc_select_race: []
+
+# The NPCs to open the GUI for Class Selection. 
+# NPC names have to be the real names of the NPCs.
+# The Gui will open even if the GUI is disabled in Class Secion.
+# This field refers to NPCs in the plugin 'Citizens'.
+# String List: a list of NPC names.
+# default: [] 
+npc_select_class: []
+
+
+#######
+#RACES#
+#######
+
+# Tells the plugin to use the Race System. 
+# boolean: true or false 
+# default: true 
+races_enable: true
+
+# If the Race-Teams should be enabled. 
+# RacesTeams are defined in the raceTeams.yml 
+# Races in the same team can not deal damage to each other.
+# boolean: true or false 
+# default: false 
+race_teams_enable: false
+
+# Tells the plugin to remember everyone not having a Race to get one. 
+# boolean: true or false 
+# default: true 
+races_remindDefaultRace_enable: true
+
+# Tells the plugin to create a Permissions Group for every Race. 
+# boolean: true or false 
+# default: true 
+races_create_group_for_race: true
+
+# This is the interval the plugin remembers the user to get a race. 
+# The Value is in Minutes 
+# integer: value without comma 
+# default: 10 
+races_remindDefaultRace_interval: 10
+
+# Tells the plugin to replace the Name of the Player with a prefix of the race in the 'TAB' player list. 
+# boolean: true or false 
+# default: true 
+races_display_adaptListName: true
+
+# Tells the Plugin to use it's own Drop list for Mobs. 
+# This list is located at:  'plugins/RacesAndClasses/TraitConfig/DropRates.yml'
+# boolean: true or false 
+# default: true 
+races_drops_enable: true
+
+# Tells the plugin to check for Permission for Each Race. 
+# The Permission is: 'RaC.races.RACENAME' 
+# boolean: true or false 
+# default: false 
+races_permissions_usePermissionsForEachRace: false
+
+# Tells the plugin to give the '/race change' Command an Uplink. 
+# Values <= 0 say to give NO uplink 
+# int: value without comma 
+# default: 3600 
+races_change_uplinkInSeconds: 3600
+
+# The name the Default Race should have. 
+# String: a text. Preferable a name 
+# default: DefaultRace 
+races_defaultrace_name: 'DefaultRace'
+
+# The tag the Default Race should have. 
+# String: a text. Preferable a name 
+# default: '[NoRace]' 
+races_defaultrace_tag: '[NoRace]'
+
+# When this is set (not ''), whenever a player has no race,  
+# he will be pushed into the Race mentioned. 
+# Example: races_takeRaceWhenNoRace: 'Elf' would push the player to the Elf Race if he has no Race. 
+# HINT: leaving this empty (use ''), the default race will be selected 
+# String: a text. Preferable a race name or an empty String 
+# default: '' 
+races_takeRaceWhenNoRace: ''
+
+# When a player logs in and does not have a Race, the Race selection screen is shown. 
+# To disable this, set this option to: false 
+# boolean: true or false 
+# default: true 
+races_openRaceSelectionOnJoinWhenNoRace_enable: true
+
+# When a player logs in and does not have a Race, the Race selection screen is shown. 
+# When this option is true, the screen is reopened as long as he hasn't selected a Race. 
+# boolean: true or false 
+# default: true 
+races_cancleGUIExitWhenNoRacePresent_enable: true
+
+# The time between login and showing of the selection screen in secods. 
+# int: number without comma 
+# default: 2 
+races_openRaceSelectionOnJoinWhenNoRace_timeToOpenAfterLoginInSeconds: 2
+
+# This indicates if the GUI selection via Inventory menu should be used or the command selection. 
+# true = gui, false = command
+# boolean: true or false 
+# default: true 
+races_gui_enable: true
+
+# This command will be executed when the player changes his race.
+# The Key %RACE% will be replaced with the race name. 
+# The Key %PLAYER% will be replaced with the player name. 
+# The Key %DISPLAY% will be replaced with the player's display name. 
+# If %CONSOLE% is contained in this text, the console will run the Command. 
+# Hint: If empty, no command will be run.
+# Hint2: This can also be a list of commands.
+# Example: '%CONSOLE%broadcast %PLAYER% is now a %RACE%.' 
+# String: a text / command.
+# default: '' 
+races_command_after_change: ''
+
+
+#########
+#CLASSES#
+#########
+
+# Tells the plugin to enable classes. 
+# Setting this to false will deactivate the complete Class system.
+# boolean: true or false 
+# default: true 
+classes_enable: true
+
+# Tells the plugin to check for Permission for Each Class. 
+# The Permission is: 'RaC.classes.CLASSNAME' 
+# boolean: true or false 
+# default: false 
+classes_permissions_usePermissionsForEachClasses: false
+
+# Removes the current Class (set to default) when the Race is changed. 
+# boolean: true or false 
+# default: false 
+classes_removeClassOnRaceChange: false
+
+# Tells the plugin to check every class selection against a Race / Class matrix. 
+# The matrix can be found in: 'plugins/RacesAndClasses/racesClassesSelectionMatrix.yml'
+# Adding an entry looks like this: 
+# RACENAME: [CLASS1, CLASS2, CLASS3]
+# This means the race RACENAME can only select CLASS1, ClASS2 or CLASS3.
+# boolean: true or false 
+# default: false 
+classes_useRaceClassSelectionMatrix: false
+
+# When this is set (not ''), whenever a player has no class,  
+# he will be pushed into the class mentioned. 
+# Example: classes_takeClassWhenNoClass: 'Warrior' would push the player to the Warrior Class if he has no Class. 
+# HINT: leaving this empty (use ''), the default class will be selected 
+# String: a text. Preferable a Class name or an empty String 
+# default: '' 
+classes_takeClassWhenNoClass: ''
+
+# Tells the plugin to give the '/class change' Command an Uplink. 
+# Values <= 0 say to give NO uplink 
+# int: value without comma 
+# default: 3600 
+classes_change_uplinkInSeconds: 3600
+
+# When a player logs in and does not have a Class, the Class selection screen is shown. 
+# To disable this, set this option to: false 
+# boolean: true or false 
+# default: true 
+classes_openClassSelectionAfterRaceSelectionWhenNoClass_enable: true
+
+# When a player logs in and does not have a Class, the Class selection screen is shown. 
+# When this option is true, the screen is reopened as long as he hasn't selected a Class. 
+# boolean: true or false 
+# default: true 
+classes_cancleGUIExitWhenNoClassPresent_enable: true
+
+# This indicates if the GUI selection via Inventory menu should be used or the command selection. 
+# true = gui, false = command
+# boolean: true or false 
+# default: true 
+classes_gui_enable: true
+
+# This command will be executed when the player changes his class.
+# The Key %CLASS% will be replaced with the class name. 
+# The Key %PLAYER% will be replaced with the player name. 
+# The Key %DISPLAY% will be replaced with the player's display name. 
+# If %CONSOLE% is contained in this text, the console will run the Command. 
+# Hint: If empty, no command will be run.
+# Hint2: This can also be a list of commands.
+# Example: '%CONSOLE%broadcast %PLAYER% is now a %CLASS%.' 
+# String: a text / command.
+# default: '' 
+classes_command_after_change: ''

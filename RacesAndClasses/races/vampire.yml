@@ -1,0 +1,18 @@
+Vampire:
+  config:
+    tag: '[Vampire]'
+    healthbonus: 20
+    guislot: -1
+    armor: iron,diamond,chain
+  traits:
+    BerserkerRageTrait:
+      operation: +
+      value: 1
+      cooldown: 30
+    RegenerationTrait:
+      operation: +
+      value: 0.5
+    SunDamageTrait:
+      seconds: 1
+      damage: 1.0
+      standing: true

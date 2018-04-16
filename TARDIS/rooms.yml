@@ -1,0 +1,175 @@
+rooms:
+  PASSAGE:
+    enabled: true
+    cost: 200
+    offset: -4
+    seed: CLAY
+    user: false
+  ARBORETUM:
+    enabled: true
+    cost: 325
+    offset: -4
+    seed: LEAVES
+    user: false
+  BEDROOM:
+    enabled: true
+    cost: 475
+    offset: -4
+    seed: GLOWSTONE
+    user: false
+  BIRDCAGE:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: YELLOW_GLAZED_TERRACOTTA
+    user: false
+  KITCHEN:
+    enabled: true
+    cost: 450
+    offset: -4
+    seed: PUMPKIN
+    user: false
+  LAZARUS:
+    enabled: true
+    cost: 750
+    offset: -4
+    seed: FURNACE
+    user: false
+  LIBRARY:
+    enabled: true
+    cost: 550
+    offset: -4
+    seed: ENCHANTMENT_TABLE
+    user: false
+  POOL:
+    enabled: true
+    cost: 450
+    offset: -4
+    seed: SNOW_BLOCK
+    user: false
+  VAULT:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: DISPENSER
+    user: false
+  WORKSHOP:
+    enabled: true
+    cost: 400
+    offset: -4
+    seed: WORKBENCH
+    user: false
+  EMPTY:
+    enabled: true
+    cost: 250
+    offset: -4
+    seed: GLASS
+    user: false
+  GRAVITY:
+    enabled: true
+    cost: 625
+    offset: -20
+    seed: MOSSY_COBBLESTONE
+    user: false
+  ANTIGRAVITY:
+    enabled: true
+    cost: 625
+    offset: -4
+    seed: SANDSTONE
+    user: false
+  HARMONY:
+    enabled: true
+    cost: 450
+    offset: -4
+    seed: SMOOTH_STAIRS
+    user: false
+  BAKER:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: ENDER_STONE
+    user: false
+  WOOD:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: WOOD
+    user: false
+  FARM:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: DIRT
+    user: false
+  GREENHOUSE:
+    enabled: true
+    cost: 450
+    offset: -4
+    seed: MELON_BLOCK
+    user: false
+  HUTCH:
+    enabled: true
+    cost: 450
+    offset: -4
+    seed: LOG_2
+    user: false
+  IGLOO:
+    enabled: true
+    cost: 650
+    offset: -4
+    seed: PACKED_ICE
+    user: false
+  MUSHROOM:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: GRAVEL
+    user: false
+  SMELTER:
+    enabled: true
+    cost: 750
+    offset: -4
+    seed: CHEST
+    user: false
+  STABLE:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: HAY_BLOCK
+    user: false
+  STALL:
+    enabled: true
+    cost: 350
+    offset: -4
+    seed: BROWN_GLAZED_TERRACOTTA
+    user: false
+  RAIL:
+    enabled: true
+    cost: 650
+    offset: -4
+    seed: HOPPER
+    user: false
+  VILLAGE:
+    enabled: true
+    cost: 550
+    offset: -4
+    seed: LOG
+    user: false
+  TRENZALORE:
+    enabled: true
+    cost: 550
+    offset: -4
+    seed: BRICK
+    user: false
+  RENDERER:
+    enabled: true
+    cost: 550
+    offset: -4
+    seed: HARD_CLAY
+    user: false
+  ZERO:
+    enabled: true
+    cost: 650
+    offset: -4
+    seed: WOOD_BUTTON
+    user: false

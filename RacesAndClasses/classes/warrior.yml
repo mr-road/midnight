@@ -1,0 +1,12 @@
+warrior:
+  config:
+    tag: '[Warrior]'
+    healthbonus: 5
+    guislot: -1
+  traits:
+    SwordDamageIncreaseTrait:
+      operation: +
+      value: 1
+    AxeDamageIncreaseTrait:
+      operation: +
+      value: 1

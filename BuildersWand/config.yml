@@ -1,0 +1,6 @@
+update:
+  notification: true
+  autoDownload: true
+particle:
+  renderInterval: 2
+  renderForAllPlayers: false

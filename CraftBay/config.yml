@@ -1,0 +1,41 @@
+# The initial duration of any auction
+auctiontime: 600
+minauctiontime: 60
+reminderinterval: 120
+spamprotection: 3
+minincrement: 5
+minraise: 0.05
+maxqueue: 1
+maxhistory: 10
+lang: en_US
+startingbid: 10
+auctionfee: 0
+auctiontax: 0
+auctioneercooldown: 30
+auctionpause: 5
+denycreative: true
+countdown:
+- 10
+- 5
+- 3
+- 2
+- 1
+blacklistworlds: []
+itemexpiry: 30
+debug: false
+defaultchat:
+  autojoin: true
+channelchat:
+  enable: false
+  channel: Trade
+colors:
+  default: dark_aqua
+  header: yellow
+  highlight: aqua
+  shadow: dark_gray
+  shortcut: white
+  admin: dark_red
+  adminhigh: red
+  error: dark_red
+  warn: red
+  warnhigh: dark_red

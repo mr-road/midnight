@@ -1,0 +1,368 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 3
+npc:
+  '0':
+    metadata:
+      protected-target: false
+    name: Mr. Martin
+    uuid: d99ccfa8-d5d8-4ef2-9a2b-c2357eb6fcd9
+    traits:
+      fishing:
+        fishing: true
+        catch type: NONE
+        fishing spot:
+          world: world
+          x: '-76.9604'
+          y: '70.0'
+          z: '244.621'
+          yaw: '61.901092529296875'
+          pitch: '0.0'
+        catch chance: 65
+      text:
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': -add- &9 Entropy is MY sphere&r
+      type: PLAYER
+      location:
+        world: world
+        x: '-76.9604'
+        y: '70.0'
+        z: '244.621'
+        yaw: '74.45094299316406'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      spawned: false
+      gravity:
+        enabled: false
+      inventory:
+        '36':
+          type: LEATHER_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        '37':
+          type: LEATHER_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        '38':
+          type: LEATHER_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+      equipment:
+        chestplate:
+          type: LEATHER_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        leggings:
+          type: LEATHER_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        boots:
+          type: LEATHER_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+      owner:
+        owner: Kr0nulus
+        uuid: 29eb407a-310b-48cb-ae8a-e9a4d5779c7c
+    traitnames: spawned,fishing,owner,type,inventory,lookclose,equipment,text,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjMyMTM4MTU4NTAsInByb2ZpbGVJZCI6IjFhMTFmNDRmYmY3YzQwMWE5YTI5NmQ5OWRlMzgzZWQyIiwicHJvZmlsZU5hbWUiOiJNaXRocmFzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zOGM4NTJhZTE3ZjViZjQ5OTJhNmQ0ZGJlODFmODg4NWEzYzZmMzdjYmQyZTc1ZDk5OTNhYTVjZTE5YSJ9fX0=
+      cached-skin-uuid-name: mithras
+      cached-skin-uuid: 1a11f44f-bf7c-401a-9a29-6d99de383ed2
+      player-skin-signature: EuKlz3tHA7mwOkDxko9NM3e4xcv1oaSmd5TZlkeJNUROdEGDqdGz50CUEEFGF1J8GXyMtdkwyP7JCEwYo1QNFy0UFiOH0OCLYNlifTgbH9kYEzf0YDQc37siK+aANZcLoAdI79NJsRziWeBAdu8wp/mLhPzqo3C4K2EuUjBZPFjef/PYrcr5zYePyh3pWPy4h5/P6qeDK64q4BCHSa9cVg+H4B+3pTpjLIA3R7FukN6xbTn2/lNj2hH741h3r5U6N3LJmU7C/OEljcpFv22MuIGKFgXQA2VhZf7chz5h2cQlzxoguQR4mF6HdmokQbQ1eCpqrajbj8w/DZrgfNqAq8xw5FV/qhSpUS18/SnG+TAq9O108rxWXJy3u/t7VruzsVM1lDqnnzo0xNx9MOvLmheZ9g+xlWTIPE8FWKFZyesO1Jb8SsgQlfPCvgNWMthmDLu7CGKqAoVjyPox8TPLJyL9aHBuj84PEI6P7KHnveMxw6CebYopKxzUdzuQzAtxNKsTv4hC8R11sD7/lzGtZPsYnNCtsNJ3yEgjkccCCQU85AA4mZZ5d7DoMvlxqVKRFYkzkQnOrM1GGERQoAm1I2Y3kp+Lqkmx5nNJavgmtTu397wLNwqJ496r8uL3aXj83gHwuej5omPnBc1mPlPE5znRWnPGlYmvtNbCF6TOmsw=
+      protected: true
+    name: Mithras
+    uuid: d9fa81aa-4963-4485-9b77-fbec642b2e16
+    traits:
+      waypoints:
+        provider: linear
+      inventory:
+        '0':
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        '36':
+          type: LEATHER_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        '37':
+          type: LEATHER_LEGGINGS
+          amount: 1
+          durability: 1
+          mdata: 1
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        '38':
+          type: LEATHER_CHESTPLATE
+          amount: 1
+          durability: 1
+          mdata: 1
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+      type: PLAYER
+      location:
+        world: world
+        x: '-77.7985'
+        y: '70.0'
+        z: '239.6142'
+        yaw: '85.88441467285156'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      spawned: false
+      equipment:
+        hand:
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type: LEATHER_CHESTPLATE
+          amount: 1
+          durability: 1
+          mdata: 1
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        leggings:
+          type: LEATHER_LEGGINGS
+          amount: 1
+          durability: 1
+          mdata: 1
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+        boots:
+          type: LEATHER_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            armor:
+              color: 1908001
+      gravity:
+        enabled: false
+      owner:
+        owner: Kr0nulus
+        uuid: 29eb407a-310b-48cb-ae8a-e9a4d5779c7c
+    traitnames: spawned,owner,type,inventory,waypoints,poses,lookclose,equipment,mounttrait,location
+    navigator:
+      pathfindingrange: '20.0'
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      protected-target: false
+    name: Riley Lewis
+    uuid: f34f905d-ae67-4900-b4a4-2bcad4d50899
+    traits:
+      waypoints:
+        linear: {}
+        provider: linear
+      inventory:
+        '0':
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        '36':
+          type: DIAMOND_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '37':
+          type: DIAMOND_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '38':
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        '39':
+          type: DIAMOND_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+      type: PLAYER
+      location:
+        world: world
+        x: '-100.3764'
+        y: '70.0'
+        z: '222.1545'
+        yaw: '178.06471252441406'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      spawned: false
+      equipment:
+        hand:
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: DIAMOND_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: DIAMOND_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: DIAMOND_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      gravity:
+        enabled: false
+      owner:
+        owner: Kr0nulus
+        uuid: 29eb407a-310b-48cb-ae8a-e9a4d5779c7c
+    traitnames: spawned,owner,type,inventory,lookclose,waypoints,equipment,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjMyMTU3MDA1ODAsInByb2ZpbGVJZCI6ImU3MmQ3NDk5OGYzYzQ2OTQ5MTBjY2ExMWJjNjE2ZmVmIiwicHJvZmlsZU5hbWUiOiJMdWNpdXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3YjViYTcxZGFkNGI2NDVlODg1M2EyODVhZGYxNGUzNWZhOTU5MWE1Nzc1YWM5NWRjZWJjNWRmMzQxMzdiOCJ9fX0=
+      cached-skin-uuid-name: lucius
+      cached-skin-uuid: e72d7499-8f3c-4694-910c-ca11bc616fef
+      player-skin-signature: csR1TMYB6YjPTXaxHdjgSftPXI9uGk/L1uSJp4WzFHSy0HVNhelOWuqu+kVqpfZKMMum0vtbCVF5A/gnPvhpRfb9RSV8ROVohZXP2zPkFUpmo/2l6nMMVwkIn0PNVu2xthqRAeYLxSq2DAODN0Uxe8hUErSxJOk4LGjQSQkjVW1zTFzO7BYllLvhFpdgH9ZQB/NUtehtJbxfr1ebntdB1kUsXnpX1w/CPNnBquWW+PywqOL2HiSdpS7aCgZjRhlP2/0/Y+k18NfjOwULp61v59a1AzqTVWaf5GbUW/nENxXLg6PYB8o1hDG2gbgPNp5y7VnpSwLjOK1FGGwq8gAGr4gsPybHm3wG41rzJAsesLFcPZ4fUjDTKrc2rZ0c2dJDh6wSf8MRjcY8i/IPITAsc6xe/alqbbIifGyXxPeNUhnzOpjfYsDXNKInON1oR6weFhnB8mXc/ov9TM6M4CN4RX//rCStMdhxlT/eZntFpUPhB4PhMcYZHjMsj3fMQbfThxNqalCf0pvj7XRm4vuf+b+RWnHMR2oTzSXafOPfhiXYHEMcWmdeDfUyqXQiyK8mql862dESMc6qkp2qGnLoIOYzENZHHRYavbFRj7+pP05kC3BaUzVeAg1j8rCxixOD4Ia5d5k/Vxc8oGcWgQ1cIkOnmAKszy0kyVkQsTOIFvY=
+    name: Lucius
+    uuid: 97db6751-3362-4469-89a3-de90f6a7f0c5
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '-78.134'
+        y: '70.0'
+        z: '233.173'
+        yaw: '78.18771362304688'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      spawned: false
+      gravity:
+        enabled: false
+      owner:
+        owner: Kr0nulus
+        uuid: 29eb407a-310b-48cb-ae8a-e9a4d5779c7c
+    traitnames: spawned,owner,type,inventory,lookclose,equipment,mounttrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

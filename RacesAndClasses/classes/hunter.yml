@@ -1,0 +1,7 @@
+hunter:
+  config:
+    tag: '[HUnter]'
+    healthbonus: '+1'
+    guislot: -1
+  traits:
+    

@@ -1,0 +1,24 @@
+General:
+  ColorfulLogging: true
+  DebugMessages: false
+CraftingMaterials:
+  Tip: IRON_INGOT
+  Handle: STICK
+ChiselMaterial: STICK
+Allowed:
+  QUARTZ: true
+  STONEBRICK: true
+  SANDSTONE: true
+  TERRACOTTA: true
+  PURPURPILLAR: true
+  LOGS: true
+  STAIRS: true
+  ENDRODS: true
+  PUMPKINS: true
+  HAYBALES: true
+  BONEBLOCKS: true
+Sounds:
+  Use: true
+  Break: true
+DefaultUses: 64
+FakePlaceEvent: true

@@ -1,0 +1,34 @@
+euthnatos:
+  config:
+    tag: '[Euthanatos]'
+    healthbonus: -1
+    manabonus: 20
+    guislot: -1
+  traits:
+    ManaRegenerationTrait:
+      time: 10
+      value: 2
+    FireballTrait:
+      cost: 6
+      cooldown: 10
+    ItemForManaConsumeTrait:
+      cooldown: 10
+      item: WHEAT
+      cost: 1
+      value: 10
+    WallTrait:
+      cooldown: 10
+      cost: 5
+      duration: 5
+    ExplosionTrait:
+      cooldown: 10
+      cost: 10
+      range: 5
+      damage: 4
+    SlowFallTrait:
+      cooldown: 10
+      cost: 5
+      duration: 10
+    ColdFeetTrait:
+      cost: 5
+      duration: 10

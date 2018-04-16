@@ -1,0 +1,145 @@
+channel:
+  PasswordChannel: {}
+  PrivateChannel: {}
+  PublicChannel: {}
+  RaceChannel:
+    Werewolf:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Mage:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Vampire:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Hunter:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&3'
+      members:
+      - 93507b74-47ed-4354-bafc-db2d405d7261
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Human:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Orc:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Elv:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&3'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+  WorldChannel:
+    Elysium_nether:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&4'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Elysium:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&4'
+      members:
+      - 93507b74-47ed-4354-bafc-db2d405d7261
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    Elysium_the_end:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&4'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+    BehindTheCurtain:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&4'
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true
+  GlobalChannel:
+    Global:
+      prefix: '&f['
+      suffix: '&f]'
+      channelColor: '&5'
+      members:
+      - 93507b74-47ed-4354-bafc-db2d405d7261
+      channelFormat: '{color}[{nick}] &f{prefix}{sender}{suffix}{color}: {msg}'
+      channelPassword: ''
+      saveLoad: true
+      banned:
+        empty: true
+      muted:
+        empty: true

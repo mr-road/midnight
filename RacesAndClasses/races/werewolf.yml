@@ -1,0 +1,17 @@
+Werewolf:
+  config:
+    tag: '[Werewolf]'
+    healthbonus: 20
+    guislot: -1
+    armor: leather
+  traits:
+    DamageReduceTrait:
+      operation: '*'
+      value: 0.8
+    SprintTrait:
+      duration: 10
+      value: 3
+      cooldown: 60
+    RegenerationTrait:
+      operation: +
+      value: 1.0

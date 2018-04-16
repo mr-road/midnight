@@ -1,0 +1,6 @@
+[15.04.2018 10:05:27] CultusMechanicus: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gmc
+[15.04.2018 14:36:36] mr__road: Rule {ID=/op,Match='^/op\b'} caught message: /op Kr0nulus
+[15.04.2018 15:41:08] Kr0nulus: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gmc
+[15.04.2018 15:41:27] mr__road: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gmc
+[15.04.2018 15:41:56] Kr0nulus: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gmsp
+[15.04.2018 15:44:47] Kr0nulus: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gmc

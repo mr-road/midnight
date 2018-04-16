@@ -1,0 +1,50 @@
+train3:
+  allowPlayerTake: false
+  collisionDamage: 1.0
+  tickets: []
+  collision:
+    passive: DEFAULT
+    neutral: DEFAULT
+    hostile: DEFAULT
+    tameable: DEFAULT
+    utility: DEFAULT
+    boss: DEFAULT
+    misc: PUSH
+  carts:
+    2282bffe-39dd-4791-8fc5-d5ce51e27f78:
+      model:
+        type: ENTITY
+        entityType: MINECART
+        attachments:
+          '1':
+            type: SEAT
+            lockRotation: false
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+    79eb3e25-6665-40cd-9146-d5e761a4005d:
+      model:
+        type: ENTITY
+        entityType: MINECART
+        attachments:
+          '1':
+            type: SEAT
+            lockRotation: false
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+    0deb10b7-89d2-4471-b015-a5db9e9053ca:
+      model:
+        type: ENTITY
+        entityType: MINECART
+        attachments:
+          '1':
+            type: SEAT
+            lockRotation: false
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+

@@ -1,0 +1,1998 @@
+<title>Recipe Flags</title><pre style='font-family:Lucida Console;font-size:16px;width:100%;'>
+<a href='basic recipes.html'>Basic Recipes</a> | <a href='advanced recipes.html'>Advanced Recipes</a> | <b>Recipe Flags</b> | <a href='recipe books.html'>Recipe Books</a> | <a href='name index.html'>Name Index</a> | <a href='commands & permissions.html'>Commands &amp; Permissions</a>
+<h1>Recipe flags</h1>
+
+<b>WHAT ARE FLAGS ?</b>
+  Flags are the stuff that make a recipe very special! You can add various features to a recipe by using flags.
+  For examples see <a href='advanced recipes.html'><b>advanced recipes.html</b></a>.
+
+<b>USING FLAGS</b>
+  Flags can be added in 3 'zones':
+  - at the beginning of the file - which are copied to all recipes from that file
+  - after recipe type (CRAFT, COMBINE, etc) - where they affect that specific recipe, you may even overwrite file flags for that specific recipe!
+  - after recipe's individual results - to apply flags for the result items.
+
+<b>ABOUT ARGUMENTS</b>
+  Flags have arguments but not always are they all required.
+  Arguments enclosed between &lt; and &gt; are required and those enclosed between [ and ] are optional.
+  Some arguments may have 'or false', that means you can just type false in there to make it do something special (most likely disable the flag or a feature)
+
+<b>ALIASES</b>
+  They're just other names for the flag that you can use, they have no special effect if used, only for your preference.
+
+
+<hr>
+
+<a name='contents'></a><h3>CONTENTS</h3>
+<a href='#shared_flags'><b>SHARED FLAGS</b></a>
+- <a href='#summon'><b>@summon</b></a>
+- <a href='#needmoney'><b>@needmoney</b></a>
+- <a href='#sound'><b>@sound</b></a>
+- <a href='#gamemode'><b>@gamemode</b></a>
+- <a href='#modexp'><b>@modexp</b></a>
+- <a href='#potioneffect'><b>@potioneffect</b></a>
+- <a href='#explode'><b>@explode</b></a>
+- <a href='#cooldown'><b>@cooldown</b></a>
+- <a href='#weather'><b>@weather</b></a>
+- <a href='#holditem'><b>@holditem</b></a>
+- <a href='#group'><b>@group</b></a>
+- <a href='#height'><b>@height</b></a>
+- <a href='#spawnparticle'><b>@spawnparticle</b></a>
+- <a href='#launchfirework'><b>@launchfirework</b></a>
+- <a href='#keepitem'><b>@keepitem</b></a>
+- <a href='#biome'><b>@biome</b></a>
+- <a href='#modlevel'><b>@modlevel</b></a>
+- <a href='#broadcast'><b>@broadcast</b></a>
+- <a href='#needexp'><b>@needexp</b></a>
+- <a href='#secret'><b>@secret</b></a>
+- <a href='#inventory'><b>@inventory</b></a>
+- <a href='#world'><b>@world</b></a>
+- <a href='#temperature'><b>@temperature</b></a>
+- <a href='#forpermission'><b>@forpermission</b></a>
+- <a href='#permission'><b>@permission</b></a>
+- <a href='#lightlevel'><b>@lightlevel</b></a>
+- <a href='#message'><b>@message</b></a>
+- <a href='#setblock'><b>@setblock</b></a>
+- <a href='#command'><b>@command</b></a>
+- <a href='#ingredientcondition'><b>@ingredientcondition</b></a>
+- <a href='#modmoney'><b>@modmoney</b></a>
+- <a href='#needlevel'><b>@needlevel</b></a>
+- <a href='#forchance'><b>@forchance</b></a>
+- <a href='#blockpowered'><b>@blockpowered</b></a>
+
+<a href='#recipe_only_flags'><b>RECIPE ONLY FLAGS</b></a>
+- <a href='#individualresults'><b>@individualresults</b></a>
+- <a href='#failmessage'><b>@failmessage</b></a>
+- <a href='#addtobook'><b>@addtobook</b></a>
+- <a href='#restrict'><b>@restrict</b></a>
+- <a href='#remove'><b>@remove</b></a>
+- <a href='#override'><b>@override</b></a>
+- <a href='#displayresult'><b>@displayresult</b></a>
+
+<a href='#result_only_flags'><b>RESULT ONLY FLAGS</b></a>
+- <a href='#spawnegg'><b>@spawnegg</b></a>
+- <a href='#cloneingredient'><b>@cloneingredient</b></a>
+- <a href='#itemunbreakable'><b>@itemunbreakable</b></a>
+- <a href='#itemname'><b>@itemname</b></a>
+- <a href='#fireworkchargeitem'><b>@fireworkchargeitem</b></a>
+- <a href='#itemlore'><b>@itemlore</b></a>
+- <a href='#skullowner'><b>@skullowner</b></a>
+- <a href='#banneritem'><b>@banneritem</b></a>
+- <a href='#monsterspawner'><b>@monsterspawner</b></a>
+- <a href='#fireworkitem'><b>@fireworkitem</b></a>
+- <a href='#applyenchantment'><b>@applyenchantment</b></a>
+- <a href='#potionitem'><b>@potionitem</b></a>
+- <a href='#getrecipebook'><b>@getrecipebook</b></a>
+- <a href='#enchantitem'><b>@enchantitem</b></a>
+- <a href='#leathercolor'><b>@leathercolor</b></a>
+- <a href='#hide'><b>@hide</b></a>
+- <a href='#enchantedbook'><b>@enchantedbook</b></a>
+- <a href='#bookitem'><b>@bookitem</b></a>
+- <a href='#noresult'><b>@noresult</b></a>
+
+
+<a name='shared_flags'></a><hr>  <b>SHARED FLAGS</b>
+    Usable on anything - file header, recipe header or result items.
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='summon'></a>
+
+
+  <b>@summon &lt;type&gt; | [arguments]</b>
+
+    Summons a creature.
+    Using this flag more than once will add more creatures.
+    
+    The &lt;type&gt; argument can be a living entity type, you can find all entity types in 'name index.html' file.
+    
+    Optionally you can add some arguments separated by | character, those being:
+      adult                      = forces creature to spawn as an adult, works with animals and villagers (works opposite of baby).
+      agelock                    = prevent the creature from maturing or getting ready for mating, works with animals and villagers.
+      angry                      = makes creature angry, only works for wolves and pigzombies; you can't use 'pet' with this.
+      baby                       = spawn creature as a baby, works with animals, villagers and zombies (works opposite of adult).
+      cat &lt;type&gt;                 = ocelot type, available values: wild_ocelot, black_cat, red_cat, siamese_cat
+      chance &lt;0.01-100&gt;%         = chance of the creature to spawn, this value is for individual creatures.
+      chest &lt;item&gt; [drop%]       = equip an item on the creature's chest with optional drop chance.
+      color &lt;dye&gt;                = sets the color of animal, only works for sheep and pet wolf; values can be found in 'name index.html' file at 'DYE COLORS' section.
+      feet &lt;item&gt; [drop%]        = equip an item on the creature's feet with optional drop chance.
+      hand &lt;item&gt; [drop%]        = equip an item on the creature's main hand with optional drop chance; for enderman it only uses material and data from the item.
+      head &lt;item&gt; [drop%]        = equip an item on the creature's head with optional drop chance.
+      hit                        = crafter will fake-attack the creature to provoke it into attacking or scare it away.
+      haschest                   = adds a chest to creature (Only works on horses, forces horse to be an adult and tamed).
+      horsecolor &lt;type&gt;          = set the horse color, values: white, creamy, chestnut, brown, black, gray, dark_brown
+      horsestyle &lt;type&gt;          = set the horse style, values: none, white, whitefield, white_dots, black_dots
+      hp &lt;health&gt; [max]          = set creature's health and optionally max health.
+      offhand &lt;item&gt; [drop%]     = equip an item on the creature's offhand with optional drop chance.
+      invulnerable               = makes the creature invulnerable.
+      jumpstrength &lt;0.0-2.0&gt;     = sets the creature's jump strength (Only works for horses). 0 = no jump
+      legs &lt;item&gt; [drop%]        = equip an item on the creature's legs with optional drop chance.
+      mountnext                  = this creature will mount the next creature definition that triggers after it.
+      noai                       = disable the ai on creature.
+      noeffect                   = no spawning particle effects on creature.
+      noremove                   = prevents creature from being removed if nobody is near it.
+      name &lt;text&gt;                = sets the creature's name, supports colors (&lt;red&gt;, &amp;3, etc).
+      nobreed                    = prevent the creature being able to breed, works for animals and villagers.
+      nohidename                 = don't hide name plate when not aiming at creature.
+      num &lt;number&gt;               = spawn more cloned creatures.
+      onfire &lt;time&gt;              = spawn creature on fire for &lt;time&gt; amount of seconds, value can be float.
+      pet [nosit]                = makes creature owned by crafter, only works for wolf and ocelot, optionally specify 'nosit' to not spawn creature in sit stance.
+      pickup [true/false]        = change if creature can pick-up dropped items.
+      playerirongolem            = marks iron golem as player-made.
+      potion &lt;type&gt; [time] [amp] = adds potion effect on the spawned creature; for &lt;type&gt; see 'name index.html' at 'POTION EFFECT TYPE'; [time] can be a decimal of duration in seconds; [amp] can be an integer that defines amplifier; this argument can be used more than once to add more effects.
+      poweredcreeper             = makes creeper a powered one, only works for creepers.
+      rabbit &lt;type&gt;              = set the rabbit type, values: brown, white, black, black_and_white, gold, salt_and_pepper, the_killer_bunny
+      saddle [mount]             = adds saddle on creature (forces animal to be adult), only works for pig and horse, optionally you can specify 'mount' to make crafter mount creature.
+      shearedsheep               = sets the sheep as sheared, only works for sheep.
+      spread &lt;range&gt;             = spawns creature(s) spread within block range instead of on top of workbench or furnace. (WARNING: can be CPU intensive)
+      target                     = creature targets crafter, that means monsters attack and animals follow and the rest do nothing
+      villager &lt;type&gt;            = set the villager profession, values: normal, farmer, librarian, priest, blacksmith, butcher, nitwit, husk
+    
+    These arguments can be used in any order and they're all optional.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @summon cow
+      @summon skeleton | hand bow // skeletons spawn without weapons, you need to give it one
+      @summon zombie | baby | chest chainmail_chestplate 25% | legs chainmail_leggings 25% | hand iron_sword 50% // baby zombie warrior
+      @summon sheep | color pink | name &lt;light_purple&gt;Pony
+      @summon ocelot | cat redcat | pet | potion speed 30 5
+      // chicken on a villager and villager on a cow:
+      @summon chicken | mountnext
+      @summon villager | mountnext
+      @summon cow
+
+    <b>Aliases:</b> @spawn, @creature, @mob, @animal
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='needmoney'></a>
+
+
+  <b>@needmoney &lt;min or min-max&gt; | [fail message]</b>
+
+    Checks if crafter has at least 'min' money and optionally at most 'max' money.
+    Using this flag more than once will overwrite the previous one.
+    
+    Optionally you can overwrite the fail message or you can use 'false' to hide it.
+    In the message the following variables can be used:
+      {money}      = money or money range; formatted with currency.
+    
+    NOTE: Vault with a supported economy plugin is required for this flag to work.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @needmoney 0.25
+      @needmoney 0.1 - 1000 | &lt;red&gt;Need {money}!
+
+    <b>Aliases:</b> @reqmoney, @moneyreq
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='sound'></a>
+
+
+  <b>@sound &lt;sound&gt; | [arguments]</b>
+
+    Plays a sound at crafting location.
+    Using this flag more than once will overwrite the previous flag.
+    
+    The &lt;sound&gt; argument must be a sound name, you can find them in 'name index.html' file at 'SOUND LIST' section.
+    
+    Optionally you can specify some arguments separated by | character:
+      volume &lt;0.0 to 100.0&gt; = (default 1.0) sound volume, if exceeds 1.0 it extends range, each 1.0 extends range by about 10 blocks.
+      pitch &lt;0.0 to 4.0&gt;    = (default 0.0) sound pitch value.
+      player                = (default not set) if set it will only play the sound to the crafter.
+    You can specify these arguments in any order and they're completely optional.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @sound level_up
+      @sound wolf_howl | volume 5 // can be heard loudly at 50 blocks away
+      @sound portal_travel | player | volume 0.65 | pitch 3.33
+
+    <b>Aliases:</b> @playsound
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='gamemode'></a>
+
+
+  <b>@gamemode &lt;game mode&gt;</b>
+  <b>@gamemode &lt;game mode&gt; | [message]</b>
+  <b>@gamemode false</b>
+
+    Requires the crafter to be in a specific game mode.
+    Using this flag more than once will overwrite the previous ones.
+    
+    Values for &lt;game mode&gt; can be: c or creative, a or adventure, s or survival
+    
+    Optionally you can specify a failure message, should be short because it prints in the display result.
+    Additionally you can use the following variables in the message:
+      {playergm}  = player's game mode (which is not allowed)
+      {gamemodes}  = list of required game modes
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @gamemode creative // only creative
+      @gamemode s // only survival
+      @gamemode a,s // only adventure and survival
+      @gamemode false // disable flag, allow all gamemodes
+
+    <b>Aliases:</b> @needgm
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='modexp'></a>
+
+
+  <b>@modexp [modifier]&lt;amount&gt; | [fail message]</b>
+
+    Modifies crafter's experience points.
+    Using this flag more than once will overwrite the previous one.
+    
+    The '[modifier]' argument can be nothing at all or you can use
+      + (which is the same as nothing, to add)
+      - (to subtract)
+      = (to set)
+    
+    The '&lt;amount&gt;' argument must be the amount of experience to modify.
+    The '[fail message]' argument is optional and can be used to overwrite the default message or you can set it to false to hide it. Message will be printed in chat.
+    For the fail message you can use the following arguments:
+      {amount}       = amount defined in the flag, never has modifier prefix.
+      {modifier}     = the modifier prefix.
+      {actualamount} = (only works for - modifier) the actual amount lost.
+    
+    NOTE: This is for total experience points, for experience levels use @modlevel
+    NOTE: This flag does not check if player has enough experience when subtracting! Use in combination with @needexp if you want to check.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @modexp 25 // gives 25 experience to crafter
+      @modexp +25 // exactly the same as above
+      @modexp -50 | &lt;red&gt;You lost {amount} exp!  // takes at most 50 experience from crafter, if he does not have that amount it will be set to 0.
+      @modexp = 0 | &lt;red&gt;You lost all your experience!  // sets crafter experience to 0, that space is valid there too.
+
+    <b>Aliases:</b> @expmod, @modxp, @xpmod, @exp, @xp, @giveexp, @givexp, @takeexp, @takexp
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='potioneffect'></a>
+
+
+  <b>@potioneffect &lt;effect type&gt; | [arguments]</b>
+  <b>@potioneffect clear</b>
+
+    Adds potion effects to crafter.
+    This flag can be used more than once to add more effects.
+    
+    Using 'clear' will remove all potion effects from player before adding any defined ones.
+    
+    The &lt;effect type&gt; argument must be an effect type, names for them can be found in 'name index.html' file at 'POTION EFFECT TYPE'.
+    
+    Optionally you can add more arguments separated by | character in any order:
+      duration &lt;float&gt;    = (default 3.0) potion effect duration in seconds, only works on non-instant effect types.
+      amplifier &lt;num&gt;     = (default 0) potion effect amplifier.
+      chance &lt;0.01-100&gt;%  = (default 100%) chance that the effect will be applied, this chance is individual for this effect.
+      morefx              = (default not set) more ambient particle effects, more screen intrusive.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @potioneffect clear // remove all player's potion effects beforehand
+      @potioneffect heal
+      @potioneffect blindness | duration 60 | amplifier 5
+      @potioneffect poison | chance 6.66% | morefx | amplifier 666 | duration 6.66
+
+    <b>Aliases:</b> @potionfx
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='explode'></a>
+
+
+  <b>@explode &lt;arguments or false&gt;</b>
+
+    Makes the workbench/furnace/player explode when recipe is crafted.
+    This flag can only be declared once per recipe and once per result.
+    
+    Replace &lt;arguments&gt; with the following arguments separated by | character:
+      power &lt;0.0 to ...&gt;      = (default 2.0) Set the explosion power, value multiplied by 2 is the range in blocks; TNT has 4.0
+      fire                    = (default not set) Explosion sets fires.
+      nobreak                 = (default not set) Makes explosion not break blocks.
+      nodamage [self]         = (default not set) Explosion doesn't damage players or only the crafter if 'self' is specified.
+      fail                    = (default not set) Explode if recipe failed as opposed to succeed.
+      fuel &lt;start,end,random&gt; = (default start) Causes the explosion to happen at different times. Can only be used on fuel recipes.
+    All arguments are optional and you can specify these arguments in any order.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @explode // will explode when recipe succeeds with power 2 and breaks blocks
+      @explode nobreak | fire | power 6 // will explode  without block damage but sets fires
+      @explode fail | power 2 // will explode when recipe fails
+      @explode fuel end // On a fuel recipe, will cause the explosion to happen after the fuel runs out
+      @explode fuel random // On a fuel recipe, will cause the explosion to happen sometime randomly before the fuel runs out
+
+    <b>Aliases:</b> @explosion, @boom, @tnt
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='cooldown'></a>
+
+
+  <b>@cooldown &lt;number&gt;[suffix] | [arguments]</b>
+  <b>@cooldown false</b>
+
+    Sets a cooldown time for crafting a recipe or result.
+    Once a recipe/result is used, the crafter can not craft it again for the specified amount of time.
+    If set on a result, the result will be unavailable to the crafter for the cooldown time but the rest of results and the recipe will work as before.
+    NOTE: cooldown is reset when reloading/restarting server.
+    
+    The &lt;number&gt; argument must be a number, by default it's seconds.
+    The [suffix] argument defines what the &lt;number&gt; value is scaled in, values for suffix can be:
+      s  = for seconds (default)
+      m  = for minutes
+      h  = for hours
+    You can also use float values like '0.5m' to get 30 seconds.
+    
+    Optionally you can add some arguments separated by | character, those being:
+      global            = make the cooldown global instead of per-player.
+    
+      msg &lt;text&gt;        = overwrites the information message; false to hide; supports colors; use {time} variable to display the new cooldown time.
+    
+      failmsg &lt;text&gt;    = overwrites the failure message; false to hide; supports colors; use {time} variable to display the remaining time.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @cooldown 30
+      @cooldown 30s // exactly the same as the previous flag
+      @cooldown 1.75m | failmsg &lt;red&gt;Usable in: {time} // 1 minute and 45 seconds or 1 minute and 75% of a minute.
+      @cooldown .5h | global | failmsg &lt;red&gt;Someone used this recently, wait: {time} | msg &lt;yellow&gt;Cooldown time: {time} // half an hour
+
+    <b>Aliases:</b> @cooltime, @delay
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='weather'></a>
+
+
+  <b>@weather &lt;type&gt;, [type] | [fail message]</b>
+
+    Sets the weather type(s) required to allow crafting.
+    Using this flag more than once will overwrite the previous one.
+    
+    The 'type' argument can be:
+      clear    = clear skies, no precipitation.
+      downfall = precipitation (rain/snow depends on biome).
+      thunder  = precipitation + thundering.
+    You can set more than one type separated by , character, but setting all of them is pointless.
+    
+    Optionally you can set the 'fail message' argument to overwrite the failure message or set it to 'false' to hide it.
+    In the fail message you can use the following variables:
+      {weather} = the weather type required.
+    
+    NOTE: If you need to check if it's raining or snowing then use the @temperature flag.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @weather downfall // works only if it's raining peacefully.
+      @weather clear, thunder | &lt;red&gt;To be struck by lightning... or to be not.
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='holditem'></a>
+
+
+  <b>@holditem &lt;item or false&gt; | [conditions]</b>
+
+    Makes the recipe require crafter to hold an item.
+    
+    This flag can be used more than once to add more items, the player will need to hold one to craft.
+    Using the flag more than once with slot conditions will require an item in each slot added.
+    
+    The &lt;item&gt; argument can be in this format: material:data
+    
+    For [conditions] argument you may further specify what item must be used.
+    Conditions must be separated by | and can be specified in any order.
+    Condition list:
+    
+      slot &lt;slotname&gt;
+        Changes the slot that is checked
+        Slot name values:
+          mainhand: selected hotbar slot. Defaults to this.
+          offhand or shield: offhand slot.
+          helmet: Helmet slot.
+          chest or chestplate: Chestplate slot.
+          legs or leggings: Leggings slot.
+          boots: Boots slot.
+          inventory: Any inventory slot.
+    
+      data &lt;[!][&amp;]num or min-max or all or vanilla or damaged or new&gt;, [...]
+        Condition for data/damage/durability, as argument you can specify data values separated by , character.
+        One number is required, you can add another number separated by - character to make a number range.
+        Additionally instead of the number you can specify 'item:data' to use the named data value.
+        Special data values:
+          all: Flips the data check to allow all data values instead of none initially.
+          vanilla: Only allow data values within the vanilla ranges.
+          new: Equivalent to 0, or an undamaged item.
+          damaged: On weapons and armor, this is everything within vanilla limits that is considered a damaged item.
+        Prefixing with '&amp;' would make a bitwise operation on the data value.
+        Prefixing with '!' would reverse the statement's meaning making it not work with the value specified.
+        Optionally you can add more data conditions separated by ',' that the held item must match against one to proceed.
+        Defaults to the equivalent of !all.
+    
+      enchant &lt;name&gt; [[!]num or min-max], [...]
+        Condition for applied enchantments (not stored in books).
+        This argument can be used more than once to add more enchantments as conditions.
+        The name must be an enchantment name, see 'name index.html' at 'ENCHANTMENTS' section.
+        The 2nd argument is the levels, it's optional
+        A number can be used as level to set that level as requirement.
+        You can also use 'max' to use the max supported level for that enchantment.
+        Additionally a second number separated by - can be added to specify a level range, 'max' is also supported in ranged value.
+        Prefixing with '!' would ban the level or level range.
+    
+      noenchant or !enchant
+        Held item must have no enchantment
+        Overrides enchant condition if set
+    
+      bookenchant &lt;name&gt; [[!]num or min-max], [...]
+        Condition for book enchantments (not applied enchantments)
+        This argument can be used more than once to add more enchantments as conditions.
+        The name must be an enchantment name, see 'name index.html' at 'ENCHANTMENTS' section.
+        The 2nd argument is the levels, it's optional
+        A number can be used as level to set that level as requirement.
+        You can also use 'max' to use the max supported level for that enchantment.
+        Additionally a second number separated by - can be added to specify a level range, 'max' is also supported in ranged value.
+        Prefixing with '!' would ban the level or level range.
+    
+      nobookenchant or !bookenchant
+        Held item must have no book enchantment
+        Overrides bookenchant condition if set
+    
+      amount &lt;num&gt;                     = stack amount
+      name &lt;text or regex:pattern&gt;     = check the item name against exact text or if prefixed with 'regex:' it will check for a regex pattern.
+      noname or !name
+        Held item must have no/default name
+        Overrides name condition if set
+    
+      lore &lt;text or regex:pattern&gt;     = checks each lore line for a specific text or if prefixed with 'regex:' it will check for a regex pattern.
+      nolore or !lore
+        Held item must have no lore
+        Overrides lore condition if set
+    
+      color &lt;colorname or R,G,B&gt;       = only works for leather armor, checks color, the values can be individual values or ranged separated by - char or you can use a color name constant, see 'name index.html' at 'DYE COLOR'.
+    
+      nocolor or !color
+        Only works for leather armor
+        Held item must have default/vanilla color
+        Overrides color condition if set
+    
+      unbreakable = Ingredient must have the unbreakable flag
+    
+      nounbreakable or !unbreakable = Ingredient must not have the unbreakable flag
+    
+      nometa or !meta
+        Ingredient must have no metadata (enchants, bookenchants, name, lore, color, unbreakable)
+        Overrides enchant, name, lore, color, unbreakable conditions if set
+        Equivalent to noenchant | nobookenchant | noname | nolore | nocolor | nounbreakable
+    
+      spawnegg &lt;entitytype&gt; = Type of entity contained in a spawn egg, read 'name index.html' at 'ENTITY TYPES' section
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @holditem iron_pickaxe // any data/damage value
+      @holditem iron_axe:0 // only undamaged axe!
+      @holditem chainmail_helmet | enchant protection_fire 1 // requires chain helmet with any level of damage and fire protection enchant level 1
+      @holditem false // makes all previous statements useless
+
+    <b>Aliases:</b> @hold
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='group'></a>
+
+
+  <b>@group [!]&lt;group&gt;, [...] | [fail message]</b>
+
+    Makes the recipe or item require the crafter to be in a permission group.
+    Using this flag more than once will add more groups, the player must be in at least one group.
+    
+    The '&lt;group&gt;' argument must be a permission group.
+    
+    Adding ! character as prefix to individual groups will do the opposite check, if crafter is in group it will not craft.
+    
+    You can also specify more groups separated by , character.
+    
+    Optionally you can specify a failure message that will be used on the specific group(s) defined.
+    The messages can have the following variables:
+      {group}   = group that was not found or was found and it's unallowed.
+      {groups}  = a comma separated list of the allowed or unallowed groups.
+    
+    NOTE: Vault with a supported permission plugin is required for this flag to work.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @group ranks.vip
+      @group !jobs.builder | &lt;red&gt;Builders can't use this!
+      @group jobs.farmer, jobs.trader | &lt;red&gt;You must be a farmer or trader!
+      @group ! ranks.newbs, ! ranks.newbies | &lt;yellow&gt;Noobs can't use this. // valid with spaces too
+
+    <b>Aliases:</b> @groups, @permissiongroup, @permgroup
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='height'></a>
+
+
+  <b>@height &lt;min or min-max&gt; | [fail message]</b>
+
+    Checks if crafter or furnace is at least at 'min' height and optionally at most 'max' height.
+    Using this flag more than once will overwrite the previous one.
+    
+    Optionally you can overwrite the fail message or you can use 'false' to hide it.
+    In the message the following variables can be used:
+      {height}  = height or height range
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @height 200 // must be high in the sky
+      @height 0-30 | &lt;red&gt;You need to be deep underground!
+
+    <b>Aliases:</b> @depth
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='spawnparticle'></a>
+
+
+  <b>@spawnparticle &lt;particle&gt; | [arguments]</b>
+
+    Spawn a particle at crafting location
+    This flag can be used more than once to spawn more particles.
+    
+    The &lt;particle&gt; argument must be a particle name, you can find them in 'name index.html' file at 'PARTICLE LIST' section.
+    
+    Optionally you can specify some arguments separated by | character:
+      offset &lt;x&gt; &lt;y&gt; &lt;z&gt;          = (default: 0.5 1.0 0.5) Offset positioning of the particle relative to the block/player crafting. Allows doubles (0.0)
+      randomoffset &lt;x&gt; &lt;y&gt; &lt;z&gt;    = (default: .25 .25 .25) Random offset of the particle relative to the block/player crafting. Allows doubles (0.0)
+      count &lt;amount&gt;              = How many particles are spawned
+      delay &lt;ticks&gt;               = How long to delay the particle spawn in ticks (20 ticks per second)
+      extra &lt;value&gt;               = Used to set extra data for certain particles. For example, speed. Allows doubles (0.0)
+      repeat &lt;times&gt; [ticks]      = Repeat the particle spawn multiple times. Ticks defaults to 20
+    You can specify these arguments in any order and they're completely optional.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @spawnparticle
+      @spawnparticle heart | count 3
+      @spawnparticle smoke_normal | count 5 | delay 40
+      @spawnparticle lava | count 20 | delay 80 | randomoffset 0.5 1 .5 | offset 0 2
+
+    <b>Aliases:</b> @particle
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='launchfirework'></a>
+
+
+  <b>@launchfirework effect &lt;effects&gt;</b>
+  <b>@launchfirework power &lt;number 0-128&gt;</b>
+
+    Launches a firework from workbench/player/furnace when recipe or result item is crafted.
+    This flag can be defined multiple times add effects and set power to the same rocket.
+    
+    The 'effect' setting adds an effect to the rocket.
+    Replace &lt;effects&gt; with the effects separated by | character.
+    Effects can be:
+      color &lt;red&gt; &lt;green&gt; &lt;blue&gt;, ...           = (Required at least 1 color) Sets the primary explosion color(s), you can define more colors separated by comma.
+      fadecolor &lt;red&gt; &lt;green&gt; &lt;blue&gt;, ...       = (Optional) Color(s) of the explosion fading, you can define more colors separated by comma.
+      type &lt;explode type&gt;                       = (Optional) Shape/size of explosion, can be: BALL, BALL_LARGE, BURST, CREEPER or STAR... or see name index.html file.
+      trail                                     = (Optional) Adds a trail to the explosion
+      flicker                                   = (Optional) Adds a flicker to explosion
+    
+    Effects can be listed in any order.
+    Colors must be 3 numbers ranging from 0 to 255, basic RGB format.
+    
+    The 'power &lt;number 0-128&gt;' value sets how long rocket will fly, each number is 0.5 seconds of flight, values above 4 are NOT recommended because it heavily affects client performance, default 2.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @launchfirework effect color 0 255 0
+      @launchfirework effect trail | color 255 0 0 | type burst
+      @launchfirework effect color 255 0 200, 0 255 0, 255 128 0 | trail | type ball_large | fadecolor 255 0 0, 0 0 255, 0 255 0
+      @launchfirework power 2
+
+    <b>Aliases:</b> @setfirework
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='keepitem'></a>
+
+
+  <b>@keepitem &lt;ingredient&gt;</b>
+  <b>@keepitem &lt;ingredient&gt; | damage &lt;num&gt;</b>
+  <b>@keepitem &lt;ingredient&gt; | replace &lt;item&gt;</b>
+
+    Keeps the specified ingredient material from being used when crafting.
+    This flag can be used more than once to specify more ingredients.
+    
+    The &lt;ingredient&gt; argument can be a material:data combination of the ingredient, data value being optional, just like defining an ingredient.
+    
+    For the optional 'damage &lt;num&gt;' argument you can specify the amount of damage to add or remove from a damageable item.
+    Damaging the item beyond its max durability will break it.
+    This argument only works for damageable items and the &lt;num&gt; can be a positive number to damage the item or negative to repair it.
+    
+    For the optional 'replace &lt;item&gt;' argument you can specify an item that will replace the ingredient.
+    The &lt;item&gt; on 'replace' argument can support material:data:amount and enchantments, just like recipe results.
+    This argument only works for unstackable ingredients. The item specified as replacement can be stackable.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @keepitem iron_axe  // makes the iron_axe ingredient persistent
+      @keepitem potion | replace bottle // using any kind of potion would return an empty bottle
+      @keepitem diamond_pickaxe | damage 5  // keeps the diamond pickaxe but damages it by 5 points
+      @keepitem shears | damage -99999 // keeps shears and fully repairs it
+
+    <b>Aliases:</b> @returnitem, @replaceitem
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='biome'></a>
+
+
+  <b>@biome &lt;types&gt; | [fail message]</b>
+
+    Sets the biome required to allow crafting.
+    Using this flag more than once will overwrite the previous one.
+    
+    For '&lt;types&gt;' you can list the biomes you want to allow or disallow.
+    It needs at least one biome name and you can add more separated by , character.
+    Also you can disallow biomes by prefixing them with ! character.
+    Biomes: ocean, plains, desert, extreme_hills, forest, taiga, swampland, river, hell, sky, frozen_ocean, frozen_river, ice_flats, ice_mountains, mushroom_island, mushroom_island_shore, beaches, desert_hills, forest_hills, taiga_hills, smaller_extreme_hills, jungle, jungle_hills, jungle_edge, deep_ocean, stone_beach, cold_beach, birch_forest, birch_forest_hills, roofed_forest, taiga_cold, taiga_cold_hills, redwood_taiga, redwood_taiga_hills, extreme_hills_with_trees, savanna, savanna_rock, mesa, mesa_rock, mesa_clear_rock, void, mutated_plains, mutated_desert, mutated_extreme_hills, mutated_forest, mutated_taiga, mutated_swampland, mutated_ice_flats, mutated_jungle, mutated_jungle_edge, mutated_birch_forest, mutated_birch_forest_hills, mutated_roofed_forest, mutated_taiga_cold, mutated_redwood_taiga, mutated_redwood_taiga_hills, mutated_extreme_hills_with_trees, mutated_savanna, mutated_savanna_rock, mutated_mesa, mutated_mesa_rock, mutated_mesa_clear_rock
+    The biomes names can also be found in 'name index.html' file at 'BIOMES' section.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @biome jungle, jungle_hills
+      @biome !mushroom_island, !mushroom_island_shore
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='modlevel'></a>
+
+
+  <b>@modlevel [modifier]&lt;number&gt; | [fail message]</b>
+
+    Modifies crafter's level.
+    Using this flag more than once will overwrite the previous one.
+    
+    The '[modifier]' argument can be nothing at all or you can use
+      + (which is the same as nothing, to add)
+      - (to subtract)
+      = (to set)
+    
+    The '&lt;number&gt;' argument must be the amount of levels to modify.
+    The '[fail message]' argument is optional and can be used to overwrite the default message or you can set it to false to hide it. Message will be printed in chat.
+    For the fail message you can use the following arguments:
+      {amount}       = amount defined in the flag, never has modifier prefix.
+      {modifier}     = the modifier prefix.
+      {actualamount} = (only works for - modifier) the actual amount lost.
+    
+    NOTE: This is for experience levels, for experience points use @modexp
+    NOTE: This flag does not check if player has enough levels when subtracting! Use in combination with @needlevel if you want to check.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @modlevel 1 // gives 1 level to crafter
+      @modlevel +1 // exactly the same as above
+      @modlevel -2 | &lt;red&gt;You lost {amount} levels.  // takes at most 2 levels from crafter, if he does not have that amount it will be set to 0.
+      @modlevel = 0 | &lt;red&gt;You've been set to level 0!  // sets crafter's level to 0, that space is valid there too.
+
+    <b>Aliases:</b> @levelmod, @setlevel, @level
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='broadcast'></a>
+
+
+  <b>@broadcast &lt;text&gt; | [permission]</b>
+
+    Prints a chat message for all online players.
+    Using this flag more than once will overwrite the previous message.
+    
+    Optionally you can set a permission node that will define who sees the message.
+    
+    Colors are supported (&lt;red&gt;, &amp;5, etc).
+    The message can also contain variables:
+      {player}         = crafter's name or '(nobody)' if not available
+      {playerdisplay}  = crafter's display name or '(nobody)' if not available
+      {result}         = the result item name or '(nothing)' if recipe failed.
+      {recipename}     = recipe's custom or autogenerated name or '(unknown)' if not available
+      {recipetype}     = recipe type or '(unknown)' if not available
+      {inventorytype}  = inventory type or '(unknown)' if not available
+      {world}          = world name of event location or '(unknown)' if not available
+      {x}              = event location's X coord or '(?)' if not available
+      {y}              = event location's Y coord or '(?)' if not available
+      {z}              = event location's Z coord or '(?)' if not available
+        Relative positions are supported: {x-1},{y+7},{z+12}
+    
+    Allows quotes to prevent spaces being trimmed.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @broadcast {playerdisplay} &lt;green&gt;crafted something!
+      @broadcast '{player}' crafted '{recipename}' at {world}: {x}, {y}, {z} | ranks.admins
+      @broadcast &quot;  Extra space  &quot; // Quotes at the beginning and end will be removed, but spaces will be kept.
+
+    <b>Aliases:</b> @announce, @msgall
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='needexp'></a>
+
+
+  <b>@needexp &lt;min or min-max&gt; | [message]</b>
+
+    Checks if crafter has at least 'min' experience and optionally at most 'max' experience.
+    Using this flag more than once will overwrite the previous one.
+    
+    Optionally you can overwrite the fail message or you can use 'false' to hide it.
+    In the message the following variables can be used:
+      {exp}    = exp or exp range.
+      {minexp} = defined min exp range.
+      {maxexp} = defined max exp range.
+      {playerexp} = player's current experience.
+    
+    NOTE: This is for total experience points, for experience levels use @needlevel
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @needexp 100 // player needs to have at least 100 experience to craft
+      @needexp 250-250 // player needs to have exactly 250 experience to craft
+      @needexp 0-500 // player can only craft if he has between 0 and 500 experience
+      @needexp 1000 | &lt;red&gt;Need {exp} exp!
+
+    <b>Aliases:</b> @needxp, @reqexp, @expreq, @reqxp, @xpreq
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='secret'></a>
+
+
+  <b>@secret [true or false]</b>
+
+    Hides the recipe or result from common info sources.
+    Recipes are hidden from commands, books, etc.
+    Results are also hidden from commands, books and most importantly from multiresult item display.
+    This also means recipes/results won't give out any fail craft reasons!
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @secret
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='inventory'></a>
+
+
+  <b>@inventory &lt;inventory type&gt; , ... | [arguments]</b>
+
+    Checks if crafting in the specific type of inventory
+    
+    The &lt;inventory type&gt; argument is required
+      Values: chest, dispenser, dropper, furnace, workbench, crafting, enchanting, brewing, player, creative, merchant, ender_chest, anvil, beacon, hopper, shulker_box
+    
+    Can declare multiple inventory types separated by commas
+    
+    
+    Optional arguments:
+      title &lt;text&gt;      - Add an inventory title restriction
+        You can add more titles seperated by a , character to set the allowed titles.
+        Also you can disallow titles by prefixing them with a ! character.
+        Checks if any allowed titles are matched and all disallowed titles are not matched.
+    
+    
+      failmsg &lt;message&gt; - Overwrite the fail message or you can use 'false' to hide it.
+        In the message the following variables can be used:
+          {inventory} = name of inventory type(s)
+          {title}     = title of inventory
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @inventory crafting // Player crafting menu
+      @inventory workbench // Must use a crafting table
+      @inventory workbench | title Custom // Must use a crafting table named 'Custom'
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='world'></a>
+
+
+  <b>@world [!]&lt;world&gt;, [...] | [fail message]</b>
+
+    Makes the recipe or item work only in certain worlds.
+    Using this flag more than once will add more worlds.
+    
+    The '&lt;world&gt;' argument can be a world name.
+    Adding ! character as prefix to individual worlds will do the opposite check, will not craft in specified world.
+    You should require or disallow worlds, using both would be logically pointless.
+    
+    Optionally you can specify a failure message that will be used on the specific world(s) defined.
+    The messages can have the following variables:
+      {world}   = current world.
+      {worlds}  = a comma separated list of the required or unallowed worlds.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @world world // only allows 'world'
+      @world !world_nether // disallows 'world_nether'
+      @world world1, world2, world3 | &lt;red&gt;Need to be in world 1, 2 or 3! // requires one of the 3 worlds
+
+    <b>Aliases:</b> @needworld, @worlds
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='temperature'></a>
+
+
+  <b>@temperature [operator]&lt;number&gt; | [fail message]</b>
+
+    Checks if the crafter or furnace has at least 'min' temperature unless [operator] is set.
+    Using this flag more than once will overwrite the previous one.
+    
+    The '[operator]' argument can be nothing at all or you can use &gt;= (which is the same as nothing, to check for greater than or equal), &lt;= (less than or equal), &gt; (greater), or &lt; (less than).
+    The '&lt;number&gt;' argument must be the temperature you want to check against. Uses doubles, meaning 1 and 1.0 are valid numbers.
+    The '[operator]&lt;number&gt;' combination can be used multiple times when separated by a comma. In that case, all checks must be successful
+    
+    Optionally you can overwrite the fail message or you can use 'false' to hide it.
+    In the message the following variables can be used:
+      {temperature} = temperature conditions
+      {actual}      = the actual temperature player or furnace is at
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @temperature &lt; 0 // Must be in an icy biome
+      @temperature 1.2 // Must be in a hot biome, such as a desert or savanna
+      @temperature &gt;= 1.2 // Equivalent to the above example
+      @temperature &gt;= .15, &lt;= .95 // Must be within a temperature where it can rain
+
+    <b>Aliases:</b> @temp
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='forpermission'></a>
+
+
+  <b>@forpermission &lt;permission node&gt; @&lt;flag declaration&gt;</b>
+
+    Adds other flags with permission requirements.
+    You can specify this flag more than once to add more permissions or more flags to a permission.
+    
+    Basically this is a storage for flags and will only trigger them if the crafter has the required permission.
+    This is useful for using different values for flags on the same recipe but for different permissions.
+    
+    The '&lt;permission node&gt;' argument must be a permission node.
+    The '&lt;flag declaration&gt;' must be a flag that will work on the current recipe or result.
+    For extra awesomeness you can even add this flag inside itself!
+    
+    NOTE: This will trigger all flags that player has permission for which means that flag effects will stack up.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @exp -2                      // you can use original flag as is for players that do not have the permission
+      @forpermission farmer.newbs @exp 4   // add 4 exp to the original -2 exp so player will have +2 exp
+      @forpermission farmer.uber @exp 50   // add 50 exp to the original -2 exp and also add 4 exp if the player has that node too
+      @forpermission farmer.uber @level 1  // if has required  give the crafter 1 level
+
+    <b>Aliases:</b> @forperm
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='permission'></a>
+
+
+  <b>@permission [!]&lt;permission&gt;, [...] | [fail message]</b>
+
+    Makes the recipe or item require the crafter to have a permission.
+    Using this flag more than once will add more permissions, the player must have at least one to allow crafting.
+    
+    The '&lt;permission&gt;' argument must be a permission node, regardless if it exists or not.
+    
+    Adding ! character as prefix to individual permission nodes will do the opposite check, if crafter has permission it will not craft.
+    
+    You can also specify more permissions separated by , character.
+    
+    Optionally you can specify a failure message that will be used on the specific permission(s) defined.
+    The messages can have the following variables:
+      {permission}  = permission that was not found or was found and it's unallowed.
+      {permissions}  = a comma separated list of the allowed or unallowed permission nodes.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @permission ranks.vip
+      @permission !jobs.builder | &lt;red&gt;Builders can't use this!
+      @permission jobs.farmer, jobs.trader | &lt;red&gt;You must be a farmer or trader!
+      @permission ! ranks.newbs, ! ranks.newbies | &lt;yellow&gt;Noobs can't use this. // valid with spaces too
+
+    <b>Aliases:</b> @permissions, @perm
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='lightlevel'></a>
+
+
+  <b>@lightlevel &lt;min or min-max&gt; [type] | [fail message]</b>
+
+    Checks for the light level.
+    Using this flag more than once will overwrite the previous one.
+    
+    The first argument must be a number from 0 to 15 to set a minimum light level, or you can specify a number range separated - character.
+    
+    Optionally you can set the  [type] argument to specify light type:
+      any    = (default) any kind of light.
+      sun    = sun light only.
+      blocks = light from blocks (torches, furnaces, etc) only.
+    
+    Be careful using blocks light level with furnace recipes as the furnace will provide light to itself.
+    
+    You can also overwrite the fail message or use 'false' to hide it.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @lightlevel 14 sun
+      @lightlevel 0-4 blocks | &lt;red&gt;Kill the lights!
+
+    <b>Aliases:</b> @blocklight, @sunlight, @light
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='message'></a>
+
+
+  <b>@message &lt;text&gt;</b>
+
+    Prints a message when recipe or item is successfully crafted.
+    This flag can be used more than once to add more messages.
+    
+    Colors are supported (&lt;red&gt;, &amp;5, etc).
+    The message can also contain variables:
+      {player}         = crafter's name or '(nobody)' if not available
+      {playerdisplay}  = crafter's display name or '(nobody)' if not available
+      {result}         = the result item name or '(nothing)' if recipe failed.
+      {recipename}     = recipe's custom or autogenerated name or '(unknown)' if not available
+      {recipetype}     = recipe type or '(unknown)' if not available
+      {inventorytype}  = inventory type or '(unknown)' if not available
+      {world}          = world name of event location or '(unknown)' if not available
+      {x}              = event location's X coord or '(?)' if not available
+      {y}              = event location's Y coord or '(?)' if not available
+      {z}              = event location's Z coord or '(?)' if not available
+        Relative positions are supported: {x-1},{y+7},{z+12}
+    
+    Allows quotes to prevent spaces being trimmed.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @message &lt;green&gt;Good job!
+      @message &lt;gray&gt;Now you can die&amp;c happy&lt;gray&gt; that you crafted that.
+      @message &quot;  Extra space  &quot; // Quotes at the beginning and end will be removed, but spaces will be kept.
+
+    <b>Aliases:</b> @craftmsg, @msg
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='setblock'></a>
+
+
+  <b>@setblock &lt;block material&gt;:[data] | [arguments]</b>
+
+    Changes the workbench/furnace/block-at-player into other block type.
+    Using this flag more than once will overwrite the previous flag.
+    
+    Replace '&lt;block material&gt;' with a block material (not item!), see 'name index.html' for list, IDs up to 255 are blocks, after that they're items.
+    Optionally you can define a data value which defines its skin, direction and other stuff, see the 'Minecraft Wiki / Data Values' link from the 'name index.html' file.
+    You can also use aliases for materials and data values too.
+    
+    Additionally you can define a set of arguments separated by | character:
+      drop            = breaks the existing block and drops its item.
+      noinv [failmsg] = prevent inventory crafting, if this is not set, the flag will set the block at player location too; optionally you can overwrite the failure message for this condition.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @setblock gold_block
+      @setblock planks:jungle | noinv // set to jungle wood planks and prevent inventory crafting
+      @setblock air | drop | noinv &lt;red&gt;Only workbench! // simulate block break
+
+    <b>Aliases:</b> @changeblock
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='command'></a>
+
+
+  <b>@command &lt;text or false&gt;</b>
+
+    Executes the command when recipe is successful.
+    This flag can be used more than once to add more commands to the list.
+    
+    Commands are executed server-side, if you add / prefix it will execute the command on the crafter.
+    
+    You can also use these variables:
+      {player}         = crafter's name or '(nobody)' if not available
+      {playerdisplay}  = crafter's display name or '(nobody)' if not available
+      {result}         = the result item name or '(nothing)' if recipe failed.
+      {recipename}     = recipe's custom or autogenerated name or '(unknown)' if not available
+      {recipetype}     = recipe type or '(unknown)' if not available
+      {inventorytype}  = inventory type or '(unknown)' if not available
+      {world}          = world name of event location or '(unknown)' if not available
+      {x}              = event location's X coord or '(?)' if not available
+      {y}              = event location's Y coord or '(?)' if not available
+      {z}              = event location's Z coord or '(?)' if not available
+        Relative positions are supported: {x-1},{y+7},{z+12}
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @command /say I crafted {result}!
+      @command kick {player}
+
+    <b>Aliases:</b> @cmd, @commands
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='ingredientcondition'></a>
+
+
+  <b>@ingredientcondition &lt;item&gt; | &lt;conditions&gt;</b>
+
+    Adds conditions for individual ingredients like ranged data values, enchantments or using stacks.
+    This flag can be called more than once to add more ingredients with conditions.
+    
+    The &lt;item&gt; argument must be an item that is in the recipe, 'material:data' format.
+    If you're planning to add ranged data values the data value must be the wildcard '*' or not set at all in order to work.
+    
+    For &lt;conditions&gt; argument you must specify at least one condition.
+    Conditions must be separated by | and can be specified in any order.
+    Condition list:
+    
+      data &lt;[!][&amp;]num or min-max or all or vanilla or damaged or new&gt;, [...]
+        Condition for data/damage/durability, as argument you can specify data values separated by , character.
+        One number is required, you can add another number separated by - character to make a number range.
+        Additionally instead of the number you can specify 'item:data' to use the named data value.
+        Special data values:
+          all: Flips the data check to allow all data values instead of none initially.
+          vanilla: Only allow data values within the vanilla ranges.
+          new: Equivalent to 0, or an undamaged item.
+          damaged: On weapons and armor, this is everything within vanilla limits that is considered a damaged item.
+        Prefixing with '&amp;' would make a bitwise operation on the data value.
+        Prefixing with '!' would reverse the statement's meaning making it not work with the value specified.
+        Optionally you can add more data conditions separated by ',' that the ingredient must match against one to proceed.
+        Defaults to the equivalent of !all.
+    
+      enchant &lt;name&gt; [[!]num or min-max], [...]
+        Condition for applied enchantments (not stored in books).
+        This argument can be used more than once to add more enchantments as conditions.
+        The name must be an enchantment name, see 'name index.html' at 'ENCHANTMENTS' section.
+        The 2nd argument is the levels, it's optional
+        A number can be used as level to set that level as requirement.
+        You can also use 'max' to use the max supported level for that enchantment.
+        Additionally a second number separated by - can be added to specify a level range, 'max' is also supported in ranged value.
+        Prefixing with '!' would ban the level or level range.
+    
+      noenchant or !enchant
+        Ingredient must have no enchantment
+        Overrides enchant condition if set
+    
+      bookenchant &lt;name&gt; [[!]num or min-max], [...]
+        Condition for book enchantments (not applied enchantments)
+        This argument can be used more than once to add more enchantments as conditions.
+        The name must be an enchantment name, see 'name index.html' at 'ENCHANTMENTS' section.
+        The 2nd argument is the levels, it's optional
+        A number can be used as level to set that level as requirement.
+        You can also use 'max' to use the max supported level for that enchantment.
+        Additionally a second number separated by - can be added to specify a level range, 'max' is also supported in ranged value.
+        Prefixing with '!' would ban the level or level range.
+    
+      nobookenchant or !bookenchant
+        Ingredient must have no book enchantment
+        Overrides bookenchant condition if set
+    
+      amount &lt;num&gt;                     = stack amount, this will also subtract from the ingredient when crafted!
+      name &lt;text or regex:pattern&gt;     = check the item name against exact text or if prefixed with 'regex:' it will check for a regex pattern.
+      noname or !name
+        Ingredient must have no/default name
+        Overrides name condition if set
+    
+      lore &lt;text or regex:pattern&gt;     = checks each lore line for a specific text or if prefixed with 'regex:' it will check for a regex pattern.
+      nolore or !lore
+        Ingredient must have no lore
+        Overrides lore condition if set
+    
+      color &lt;colorname or R,G,B&gt;       = only works for leather armor, checks color, the values can be individual values or ranged separated by - char or you can use a color name constant, see 'name index.html' at 'DYE COLOR'.
+    
+      nocolor or !color
+        Only works for leather armor
+        Ingredient must have default/vanilla color
+        Overrides color condition if set
+    
+      unbreakable = Ingredient must have the unbreakable flag
+    
+      nounbreakable or !unbreakable = Ingredient must not have the unbreakable flag
+    
+      nometa or !meta
+        Ingredient must have no metadata (enchants, bookenchants, name, lore, color, unbreakable)
+        Overrides enchant, name, lore, color, unbreakable conditions if set
+        Equivalent to noenchant | nobookenchant | noname | nolore | nocolor | nounbreakable
+    
+      needed &lt;num&gt;
+        Sets the number of ingredients that need to match this condition
+        Defaults to all of the ingredientcondition type
+    
+      potion &lt;condition&gt;, [...]
+        type &lt;potiontype&gt;      = Type of potion, read 'name index.html' at 'POTION TYPES' section (not POTION EFFECT TYPE!)
+        level                  = Potion's level/tier, usually 1(default) or 2, you can enter 'max' to set it at highest supported level
+        extended or !extended  = Potion's extended duration
+    
+      potioneffect &lt;condition&gt;, [...]
+        type &lt;effecttype&gt;         = Type of potion effect, read 'name index.html' at 'POTION EFFECT TYPE' section (not POTION TYPE!)
+        duration &lt;num or min-max&gt; = Duration of the potion effect in seconds, default 1 (does not work on HEAL and HARM)
+        amplify &lt;num or min-max&gt;  = Amplify the effects of the potion, default 0 (e.g. 2 = &lt;PotionName&gt; III, numbers after potion's max level will display potion.potency.number instead)
+        ambient or !ambient       = Check effect's extra visual particles setting
+    
+      banner &lt;condition&gt;, [...]
+        color &lt;dyecolor&gt;
+        pattern &lt;pattern&gt; [dyecolor]
+    
+        Dye Colors: white, orange, magenta, light_blue, yellow, lime, pink, gray, silver, cyan, purple, blue, brown, green, red, black
+        Patterns: base, square_bottom_left, square_bottom_right, square_top_left, square_top_right, stripe_bottom, stripe_top, stripe_left, stripe_right, stripe_center, stripe_middle, stripe_downright, stripe_downleft, stripe_small, cross, straight_cross, triangle_bottom, triangle_top, triangles_bottom, triangles_top, diagonal_left, diagonal_right, diagonal_left_mirror, diagonal_right_mirror, circle_middle, rhombus_middle, half_vertical, half_horizontal, half_vertical_mirror, half_horizontal_mirror, border, curly_border, creeper, gradient, gradient_up, bricks, skull, flower, mojang
+    
+      spawnegg &lt;entitytype&gt; = Type of entity contained in a spawn egg, read 'name index.html' at 'ENTITY TYPES' section
+    
+      failmsg &lt;text&gt;                   = overwrite message sent to crafter when failing to provide required ingredient.
+    
+    This flag can be used on recipe results to determine a specific outcome for the recipe depending on the ingredients, however in that case you would need 'failmsg false' along with @displayresult flag too, see 'advanced recipes.html' file for example.
+    
+    NOTE: this flag can not be used in recipe header, needs to be defined on individual results or recipes.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @ingredientcondition wood | data 3 // pointless use of this flag, just use wood:3 as ingredient.
+      @ingredientcondition wood | data 1-3, 39, 100 // this overwrites the data condition to the previous one.
+      @ingredientcondition dirt | amount 64 // needs a full stack of dirt to work.
+      @ingredientcondition iron_sword | data 0-25 // only accepts iron swords that have 0 to 25 damage.
+      @ingredientcondition wool | data vanilla, !wool:red // no red wool
+      @ingredientcondition wool | data all, !vanilla // only modded data values
+      @ingredientcondition iron_sword | data new // Only allow undamaged iron swords
+      @ingredientcondition gold_sword | data damaged // Only allow damaged gold swords
+      @ingredientcondition splash_potion | potion !extended // checks if potion is splash and NOT extended
+      @ingredientcondition diamond_helmet | enchant fire_resistance 1-3 | enchant thorns | data 0, 5, 50-100 // makes ingredient require 2 enchantments and some specific data values.
+      @ingredientcondition stick | nometa // makes ingredient require a vanilla stick.
+      @ingredientcondition stick | !meta  // Same as above.
+      @ingredientcondition stick | name Crafted Stick | nolore | noenchant // makes ingredient require a stick with a name of 'Crafted Stick', but no lore or enchantments.
+
+    <b>Aliases:</b> @ingrcondition, @ingrcond, @ifingredient, @ifingr
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='modmoney'></a>
+
+
+  <b>@modmoney [modifier]&lt;float number&gt; | [fail message]</b>
+
+    Modifies crafter's money.
+    Using this flag more than once will overwrite the previous one.
+    
+    The '[modifier]' argument can be nothing at all or you can use
+      + (which is the same as nothing, to add)
+      - (to subtract)
+      = (to set)
+    
+    The '&lt;number&gt;' argument must be the amount of money to modify.
+    The '[fail message]' argument is optional and can be used to overwrite the default message or you can set it to false to hide it. Message will be printed in chat.
+    For the fail message you can use the following arguments:
+      {amount}       = amount defined in the flag, never has modifier prefix.
+      {modifier}     = the modifier prefix.
+    
+    NOTE: Vault with a supported economy plugin is required for this flag to work.
+    NOTE: This flag does not check if player has enough money when subtracting! Use in combination with @needmoney if you want to check.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @modmoney 0.5 // gives 0.5 currency or 50 minor currency money to crafter
+      @modmoney +0.5 // exactly the same as above
+      @modmoney -2.5 | &lt;red&gt;You lost {money}!  // takes at most 2.5 currency from crafter, if he does not have that amount it will be set to 0.
+      @modmoney = 0 | &lt;red&gt;You lost all your money!  // sets crafter's money to 0, that space is valid there too.
+
+    <b>Aliases:</b> @moneymod, @setmoney, @money
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='needlevel'></a>
+
+
+  <b>@needlevel &lt;min or min-max&gt; | [fail message]</b>
+
+    Checks if crafter has at least 'min' levels and optionally at most 'max' levels.
+    Using this flag more than once will overwrite the previous one.
+    
+    Optionally you can overwrite the fail message or you can use 'false' to hide it.
+    In the message the following variables can be used:
+      {level}  = level or level range
+    
+    NOTE: This is for experience levels, for experience points use @needexp or for world height use @height.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @needlevel 1 // Requires a minimum level of 1
+      @needlevel 5-5 // Requires exactly level 5
+      @needlevel 25-100 | &lt;red&gt;Need level 25 to 100!
+
+    <b>Aliases:</b> @reqlevel, @levelreq
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='forchance'></a>
+
+
+  <b>@forchance &lt;group&gt; [chance]% [^]@[flag declaration]</b>
+  <b>@forchance &lt;chance&gt;% [^]@&lt;flag declaration&gt;</b>
+
+    Triggers other flags or groups of flags by specified chance.
+    Using this flag more than once will add more flags.
+    
+    The 'group' argument defines a group for the flags (not permission related), can be any combination of letters only, no spaces either.
+    Grouping flags makes the system pick only one flag from the bunch which means it's also limited to 100% total chance.
+    If a group is not defined then the flags will be added to the default group which is a special group that will trigger flags randomly according to their chance, it can trigger all at once or even none at all.
+    
+    The 'chance' argument suggests a chance value that can be between 0.01 and 100 and the '%' suffix is required.
+    The chance argument is only optional if there's a group defined, then the remaining chance will be evenly split between all flags with undefined chance.
+    
+    The 'flag declaration' is a flag like you'd add a flag to a recipe or result, you can even add this flag into itself to make multi-chance structures.
+    The flag declaration argument is only optional if there's a group defined and will act as literally nothing.
+    Optionally you can prefix the flag declaration with the '^' character to append the data from the flag to the previous flag of the same type from the same group (no group is still a group, but a special one).
+    
+    NOTE: If using '^' prefix, always use '^' and '@' together like '^@', no space in between.
+    NOTE: In a group there must be at least a chance value or a flag declaration.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      // some simple example
+      @forchance 25% @explode // 25% chance to explode
+      // appending to flags example
+      @forchance 80% @command say high chance message!
+      @forchance 50% @command say 50-50 message... // this is a totally new flag, individual from the previous one.
+      @forchance    ^@command say extra message! // this command will be appended to the previous command flag.
+      @forchance    ^@command say extra-large message!!! // this will also add append to the same previous command flag, now it has 3 commands.
+      // all flags in a group must have a total of 100% chance since only one triggers, in this case the chance is calculated and it would be 33.33% for each.
+      @forchance mystuff @sound level_up
+      @forchance mystuff @sound note_bass
+      @forchance mystuff @sound hurt
+      // example of empty flag definition as nothing chance
+      @forchance dostuff @broadcast yay!
+      @forchance dostuff 75% // this sets the 'dostuff' group to do nothing 75% of the time
+      // forchanception
+      @forchance 50% @forchance 25% @forchance test @broadcast chanception occurred!
+      // NOTE all of the examples above can be used in a single recipe if you want, there's no limit to the combinations!
+
+    <b>Aliases:</b> @bychance, @chance
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='blockpowered'></a>
+
+
+  <b>@blockpowered [arguments]</b>
+
+    Requires the workbench or furnace block to be powered by redstone.
+    
+    Optionally you can use the following arguments separated by | character and in any order:
+      indirect          = check for indirect redstone power, through other blocks.
+      failmsg &lt;message&gt; = overwrite the failure message.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @blockpowered
+      @blockpowered failmsg &lt;red&gt;&lt;bold&gt;YOU HAVE NO (indirect) POWAAH!!! | indirect
+
+    <b>Aliases:</b> @poweredblock, @blockpower, @redstonepowered
+
+
+
+<a name='recipe_only_flags'></a><hr>  <b>RECIPE ONLY FLAGS</b>
+    Usable only on file headers or recipe headers. Can not be used on result items.
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='individualresults'></a>
+
+
+  <b>@individualresults</b>
+
+    Allows multi-result recipes to have individual result outcomes, instead of a chance based outcome between all results.
+    With this flag set, the first valid recipe found will be the one crafted
+    
+    A percent chance on a result will cause the recipe to fail the rest of the percent out of 100.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @individualresults
+
+    <b>Aliases:</b> @individual
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='failmessage'></a>
+
+
+  <b>@failmessage [message or false]</b>
+
+    Changes the message when recipe fails due to failure chance.
+    Using this flag more than once will overwrite the previous message.
+    
+    The message supports colors (&lt;red&gt;, &amp;3, etc).
+    
+    You can also use the following variables inside the message:
+      {failchance}    = recipe's chance of failure as a number.
+      {successchance} = recipe's chance of success as a number.
+      {resultchance}  = result's chance of success as a number.
+    
+    The same effect can be achieved by using @message on the fail result item.
+    
+    Allows quotes to prevent spaces being trimmed.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @failmessage &lt;red&gt;YOU FAILED, MWaHahahah!
+      @failmessage &quot;  Extra space  &quot; // Quotes at the beginning and end will be removed, but spaces will be kept.
+
+    <b>Aliases:</b> @failmsg
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='addtobook'></a>
+
+
+  <b>@addtobook &lt;book id&gt; [volume &lt;num&gt;]</b>
+
+    This flag is a shortcut for quickly adding recipe(s) to books.
+    Using this flag more than once will overwrite the previous one.
+    
+    The book must exist first, you must create it, see 'recipe books.html' for how to do that.
+    
+    The '&lt;book id&gt;' argument must be an existing book's ID/filename, case insensitive.
+    Optionally you can specify which volume to add it to, otherwise it will be added in its 'recipes' node and left to be added automatically to the latest volume with free slots.
+    
+    NOTE: To properly remove recipes from books you must first remove this flag (to avoid re-adding them) then go to the book's YML file and remove them from there as well.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @addtobook testing book // matches a 'Testing Book.yml' book for example
+      @addtobook random stuff volume 3 // matches a 'Random Stuff.yml' with volume 3 book for example
+
+    <b>Aliases:</b> @recipebook
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='restrict'></a>
+
+
+  <b>@restrict [fail message]</b>
+
+    Restricts the recipe for everybody.
+    This is the player-friendly version of @remove because crafter gets a message when trying to craft the recipe.
+    
+    Optionally you can overwrite the default restrict message.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @restrict
+      @restrict &lt;red&gt;Access denied!
+
+    <b>Aliases:</b> @disable, @denied, @deny
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='remove'></a>
+
+
+  <b>@remove [true or false]</b>
+
+    Removes an existing recipe that was added by vanilla Minecraft or other plugins/mods. 
+    The recipe definition must have the exact ingredients of the recipe you want to overwrite.
+    
+    Results and smelt time will be ignored and you don't have to delete them if you want to keep them for later.
+    
+    If you don't know the exact ingredients you can use 'rmextract' command to extract all existing recipes in RecipeManager format.
+    Value is optional, if value is not specified it will just be enabled.
+    
+    This can't be used along with @override flag.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @remove
+
+    <b>Aliases:</b> @delete
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='override'></a>
+
+
+  <b>@override [true or false]</b>
+
+    Overwrites an existing recipe from vanilla Minecraft or other plugins/mods.
+    The recipe definition must have the exact ingredients of the recipe you want to overwrite.
+    
+    You may set whatever result(s) you want and add any other flags, this flag allows RecipeManager to take control over that recipe.
+    If you don't know the exact ingredients you can use 'rmextract' command to extract all existing recipes in RecipeManager format.
+    
+    Value is optional, if value is not specified it will just be enabled.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @override
+
+    <b>Aliases:</b> @edit, @overwrite, @supercede, @replace
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='displayresult'></a>
+
+
+  <b>@displayresult &lt;item or first&gt; | [silentfail]</b>
+
+    Sets the display result of the recipe.
+    Using this flag more than once will overwrite the previous message.
+    
+    As 'item' argument you can define an item like in a result, material:data:amount.
+    Or you can set the item as 'first' to use the first display result available, very useful for multiple results having @ingredientcondition flag on them.
+    
+    Optionally, using 'silentfail' argument you can make the recipe print no result if it wouldn't give anything in the case of no results being allowed to craft (by other flags, like @ingredientcondition).
+    
+    NOTE: If there is no item to be displayed (all are secret or unavailable), using this with 'first' will not do anything.
+    NOTE: Can only be used on workbench recipes because it can not have effect on other recipes.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @displayresult first // displays the first available result
+      @displayresult diamond_helmet:120 // damaged diamond helmet
+
+    <b>Aliases:</b> @resultdisplay, @showresult
+
+
+
+<a name='result_only_flags'></a><hr>  <b>RESULT ONLY FLAGS</b>
+    Usable only on recipe's result items. Can not be used on recipes or file header.
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='spawnegg'></a>
+
+
+  <b>@spawnegg &lt;entity type&gt;</b>
+
+    Sets the entity type that will be spawned from the spawn egg.
+    
+    The &lt;entity type&gt; argument must be an entity type name, you can find them in 'name index.html' file at 'ENTITY TYPES' section.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @spawnegg creeper
+      @spawnegg horse
+
+    <b>Aliases:</b> @monsteregg, @egg
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='cloneingredient'></a>
+
+
+  <b>@cloneingredient &lt;arguments&gt;</b>
+
+    Clones the ingredient matching material of the result used on.
+    Using this flag more than once will overwrite the previous one.
+    
+    As '&lt;arguments&gt;' you must define at least one feature to copy from the ingredient to the result.
+    Arguments can be one or more of the following, separated by | character:
+      data [&lt;mod&gt; &lt;value&gt;]                   = copy data value with optional modifier, &lt;mod&gt; can be +,-,/,* or % as math operator and &lt;value&gt; a number.
+      amount [&lt;mod&gt; &lt;value&gt;]                 = copy stack amount with optional modifier, &lt;mod&gt; can be +,-,/,* or % as math operator and &lt;value&gt; a number.
+      enchants                               = copies the enchantments.
+      name                                   = copies the custom item name.
+      lore [number or text or regex:pattern] = copies all the custom item lore/description unless conditions are added to copy specific lines.
+        [number]                             = copies only the lore on line number. More lore conditions can be added to copy more lines
+        [text]                               = copies any lore lines that contain the text
+        [regex:pattern]                      = copies any lore lines that match the regex pattern.
+      special                                = copies item's special feature like leather armor color, firework effects, book contents, skull owner, etc.
+      allmeta                                = copies enchants, name, lore and special.
+      all                                    = copies entire item (data, amount, enchants, name, lore, special)
+    
+    NOTE: If the result's material is present in the ingredients more than once, when using the recipe it will clone the details of first item in the grid.
+    
+    To apply conditions for ingredients (ranged data values, specific names, etc) then you can use the @ingredientcondition flag too.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @cloneingredient data // just copy data value
+      @cloneingredient data +2 // copy data value and add 2 to it
+      @cloneingredient amount * 2 // copy amount and multiply it by 2
+      @cloneingredient data % 2 // get the remainder from data divided by 2.
+      @cloneingredient data | amount | lore // only copy these things
+      @cloneingredient all // copy entire ingredient
+
+    <b>Aliases:</b> @clone, @copy, @copyingredient
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='itemunbreakable'></a>
+
+
+  <b>@itemunbreakable [false]</b>
+
+    Makes the result unbreakable
+    
+    Optionally, adding false will make the result breakable again
+
+    <b>Examples:</b>
+      @itemunbreakable // Makes the result unbreakable
+      @itemunbreakable false // Remove the unbreakable status, allowing for the item to be destroyed
+
+    <b>Aliases:</b> @unbreakable
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='itemname'></a>
+
+
+  <b>@itemname &lt;text or false&gt;</b>
+
+    Changes result's display name.
+    
+    Supports colors (e.g. &lt;red&gt;, &lt;blue&gt;, &amp;4, &amp;F, etc).
+    
+    You can also use these variables:
+      {player}         = crafter's name or '(nobody)' if not available
+      {playerdisplay}  = crafter's display name or '(nobody)' if not available
+      {result}         = the result item name or '(nothing)' if recipe failed.
+      {recipename}     = recipe's custom or autogenerated name or '(unknown)' if not available
+      {recipetype}     = recipe type or '(unknown)' if not available
+      {inventorytype}  = inventory type or '(unknown)' if not available
+      {world}          = world name of event location or '(unknown)' if not available
+      {x}              = event location's X coord or '(?)' if not available
+      {y}              = event location's Y coord or '(?)' if not available
+      {z}              = event location's Z coord or '(?)' if not available
+        Relative positions are supported: {x-1},{y+7},{z+12}
+    
+    Allows quotes to prevent spaces being trimmed.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @itemname &lt;light_purple&gt;Weird Item
+      @itemname &lt;yellow&gt;{player}'s Sword
+      @itemname &quot;  Extra space  &quot; // Quotes at the beginning and end will be removed, but spaces will be kept.
+
+    <b>Aliases:</b> @name, @displayname
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='fireworkchargeitem'></a>
+
+
+  <b>@fireworkchargeitem &lt;effect arguments&gt;</b>
+
+    Configures firework charge's effect.
+    Using this flag more than once will overwrite previous changes since the item only supports one effect.
+    
+    Replace '&lt;effect arguments&gt;' with the following arguments separated by | character.
+    Effects can be:
+      color &lt;red&gt; &lt;green&gt; &lt;blue&gt;, ...           = (Required) Sets the primary explosion color(s), you can define more colors separated by comma.
+      fadecolor &lt;red&gt; &lt;green&gt; &lt;blue&gt;, ...       = (Optional) Color(s) of the explosion fading, you can define more colors separated by comma.
+      type &lt;explode type&gt;                       = (Optional) Shape/size of explosion, can be: ball, ball_large, star, burst, creeper  (see 'name index.html' file)
+      trail                                     = (Optional) Adds a trail to the explosion
+      flicker                                   = (Optional) Adds a flicker to explosion
+    Effects can be listed in any order.
+    Colors must be 3 numbers ranging from 0 to 255, basic RGB format.
+    
+    Specific item: firework_charge.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @fireworkchargeitem trail | color 255 0 0, 0 255 0 | type ball_large
+      @fireworkchargeitem type creeper | color 0 255 0 | fadecolor 255 0 0, 0 255 0 | flicker
+
+    <b>Aliases:</b> @fireworkcharge, @fireworkeffect
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='itemlore'></a>
+
+
+  <b>@itemlore &lt;text&gt;</b>
+
+    Adds a line to result's lore (description)
+    
+    Supports colors (e.g. &lt;red&gt;, &lt;blue&gt;, &amp;4, &amp;F, etc).
+    
+    You can also use these variables:
+      {player}         = crafter's name or '(nobody)' if not available
+      {playerdisplay}  = crafter's display name or '(nobody)' if not available
+      {result}         = the result item name or '(nothing)' if recipe failed.
+      {recipename}     = recipe's custom or autogenerated name or '(unknown)' if not available
+      {recipetype}     = recipe type or '(unknown)' if not available
+      {inventorytype}  = inventory type or '(unknown)' if not available
+      {world}          = world name of event location or '(unknown)' if not available
+      {x}              = event location's X coord or '(?)' if not available
+      {y}              = event location's Y coord or '(?)' if not available
+      {z}              = event location's Z coord or '(?)' if not available
+        Relative positions are supported: {x-1},{y+7},{z+12}
+    
+    Allows quotes to prevent spaces being trimmed.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @itemlore &lt;red&gt;Awesome item
+      @itemlore &lt;magic&gt;some scrambled text on line 2
+      @itemlore &lt;gray&gt;Crafted at {world}:{x},{y},{z}
+      @itemlore &quot;  Extra space  &quot; // Quotes at the beginning and end will be removed, but spaces will be kept.
+
+    <b>Aliases:</b> @lore, @itemdesc
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='skullowner'></a>
+
+
+  <b>@skullowner &lt;name&gt;</b>
+  <b>@skullowner &lt;uuid&gt;</b>
+
+    Sets the human skull's owner to apply the skin.
+    If you set it to '{player}' then it will use crafter's name.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @skullowner Notch
+      @skullowner {player}
+
+    <b>Aliases:</b> @skullitem
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='banneritem'></a>
+
+
+  <b>@banneritem &lt;basecolor&gt; | [pattern] &lt;color&gt; | [...]</b>
+
+    Creates a custom banner
+    Using this flag more than once will overwrite the previous one.
+    
+    The &lt;basecolor&gt; argument is required
+      Values: white, orange, magenta, light_blue, yellow, lime, pink, gray, silver, cyan, purple, blue, brown, green, red, black
+    
+    Patterns can be added after the base color and are separated by the '|' character
+      [pattern] is the banner pattern type
+        Values: base, square_bottom_left, square_bottom_right, square_top_left, square_top_right, stripe_bottom, stripe_top, stripe_left, stripe_right, stripe_center, stripe_middle, stripe_downright, stripe_downleft, stripe_small, cross, straight_cross, triangle_bottom, triangle_top, triangles_bottom, triangles_top, diagonal_left, diagonal_right, diagonal_left_mirror, diagonal_right_mirror, circle_middle, rhombus_middle, half_vertical, half_horizontal, half_vertical_mirror, half_horizontal_mirror, border, curly_border, creeper, gradient, gradient_up, bricks, skull, flower, mojang
+      &lt;color&gt; is required for each pattern, color values are the same as &lt;basecolor&gt;
+      Multiple patterns can be added
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @banneritem black
+      @banneritem red | circle_middle blue | skull yellow
+      @banneritem green | half_horizontal yellow | circle_middle orange
+
+    <b>Aliases:</b> @banner
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='monsterspawner'></a>
+
+
+  <b>@monsterspawner &lt;entity type&gt;</b>
+
+    Sets the entity type that will be spawned from the spawner.
+    
+    The &lt;entity type&gt; argument must be an entity type name, you can find them in 'name index.html' file at 'ENTITY TYPES' section.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @monsterspawner creeper
+      @monsterspawner horse
+
+    <b>Aliases:</b> @spawner, @mobspawner
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='fireworkitem'></a>
+
+
+  <b>@fireworkitem effect &lt;effect data&gt;</b>
+  <b>@fireworkitem power &lt;0-128&gt;</b>
+
+    Configures firework rocket's effects.
+    Using this flag more than once will append changes to the item.
+    
+    The 'effect' setting adds an effect to the rocket.
+    Replace '&lt;effect arguments&gt;' with the following arguments separated by | character.
+    Effects can be:
+      color &lt;red&gt; &lt;green&gt; &lt;blue&gt;, ...           = (Required) Sets the primary explosion color(s), you can define more colors separated by comma.
+      fadecolor &lt;red&gt; &lt;green&gt; &lt;blue&gt;, ...       = (Optional) Color(s) of the explosion fading, you can define more colors separated by comma.
+      type &lt;explode type&gt;                       = (Optional) Shape/size of explosion, can be: ball, ball_large, star, burst, creeper  (see 'name index.html' file)
+      trail                                     = (Optional) Adds a trail to the explosion
+      flicker                                   = (Optional) Adds a flicker to explosion
+    Effects can be listed in any order.
+    Colors must be 3 numbers ranging from 0 to 255, basic RGB format.
+    
+    The 'power &lt;number 0-128&gt;' value sets how long rocket will fly, each number is 0.5 seconds of flight, default 2, recommended max 4.
+    
+    Specific item: firework.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @fireworkitem effect color 0 255 0
+      @fireworkitem effect trail | color 255 0 0 | type burst
+      @fireworkitem effect color 255 0 200, 0 255 0, 255 128 0 | trail | type ball_large | fadecolor 255 0 0, 0 0 255, 0 255 0
+      @fireworkitem power 1
+
+    <b>Aliases:</b> @firework, @fireworkrocket
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='applyenchantment'></a>
+
+
+  <b>@applyenchantment &lt;arguments&gt;</b>
+
+    Applies the enchantments from books onto the result
+    Using this flag more than once will overwrite the previous one.
+    
+    As '&lt;arguments&gt;' you must define at least one feature to copy from the ingredient to the result.
+    Arguments can be one or more of the following, separated by | character:
+      ingredientaction &lt;action&gt; = (default largest) merge action for all of the ingredients
+      resultaction &lt;action&gt;     = (default largest) merge action applied to the result
+      ignorelevel               = Ignore enchantment level restrictions
+      onlybooks                 = Only copies enchantments from Enchanted Books. Without this, all item enchantments will be copied
+    
+    Actions include:
+      largest = Use the largest of the two enchantments if two are merged (Sharpness I + Sharpness III = Sharpness III)
+      combine = Add the enchantment levels together (Sharpness I + Sharpness III = Sharpness IV)
+    
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @applyenchantment
+      @applyenchantment resultaction combine // Combines the levels with the resulting item's enchants
+      @applyenchantment ingredientaction combine | ignorelevels | onlybooks // Combines all ingredients levels from books while allowing higher than vanilla allowed enchants
+
+    <b>Aliases:</b> @applyenchant, @applyenchantments, @applyenchants
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='potionitem'></a>
+
+
+  <b>@potionitem &lt;basic effect&gt;</b>
+  <b>@potionitem custom &lt;custom effect&gt;</b>
+
+    Builds a potion item, only works with POTION item.
+    
+    There are 2 types of potions... basic potions which have 1 effect and custom potions which can have multiple effects.
+    
+    Building a basic potion:
+    
+    Instead of &lt;basic effect&gt; argument you must enter a series of arguments separated by | character, in any order.
+    Arguments for basic effect:
+      type &lt;potion type&gt;     = (REQUIRED) Type of potion, read 'name index.html' at 'POTION TYPES' section (not POTION EFFECT TYPE!)
+      level &lt;number or max&gt;  = (optional) Potion's level/tier, usually 1(default) or 2, you can enter 'max' to set it at highest supported level
+      extended               = (optional) Potion has extended duration
+      splash                 = (optional) Throwable/breakable potion instead of drinkable
+      lingering              = (optional) Lingering potion instead of drinkable
+    
+    
+    Building a custom potion requires adding individual effects:
+    
+    A basic potion still affects the custom potion like the following:
+    - If no basic potion is defined the bottle will look like 'water bottle' with no effects listed, effects still apply when drank
+    - Basic potion's type affects bottle liquid color
+    - Basic potion's splash still affects if the bottle is throwable instead of drinkable
+    - Basic potion's extended and level do absolutely nothing.
+    - The first custom effect added is the potion's name, rest of effects are in description (of course you can use @name to change the item name)
+    
+    Once you understand that, you may use @potion custom as many times to add as many effects you want.
+    
+    Similar syntax to basic effect, arguments separated by | character, can be in any order.
+    Arguments for custom effect:
+      type &lt;effect type&gt;  = (REQUIRED) Type of potion effect, read 'name index.html' at 'POTION EFFECT TYPE' section (not POTION TYPE!)
+      duration &lt;float&gt;    = (optional) Duration of the potion effect in seconds, default 1 (does not work on HEAL and HARM)
+      amplify &lt;number&gt;    = (optional) Amplify the effects of the potion, default 0 (e.g. 2 = &lt;PotionName&gt; III, numbers after potion's max level will display potion.potency.number instead)
+      ambient             = (optional) Adds extra visual particles
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @potionitem level max | type FIRE_RESISTANCE | extended // basic extended fire resistance potion
+      // advanced potion example:
+      @potionitem type POISON | splash // set the bottle design and set it as splash
+      @potionitem custom type WITHER | duration 10 // add wither effect
+      @potionitem custom duration 2.5 | type BLINDNESS | amplify 5 // add blindness effect
+
+    <b>Aliases:</b> @potion
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='getrecipebook'></a>
+
+
+  <b>@getrecipebook &lt;book id&gt; [volume &lt;num&gt;]</b>
+
+    Overwrites result with the specified recipe book.
+    
+    For the '&lt;book id&gt;' argument you need to specify the book ID/filename, case insensitive.
+    
+    Optionally you can set which volume to give, will give first by default, using a bigger number than the number of volumes will pick the last volume.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @getrecipebook recipe stuff // matches a 'Recipe Stuff.yml' book for example.
+      @getrecipebook vanilla_recipes volume 2 // matches a 'vanilla_recipes.yml' with volume 2 for example.
+
+    <b>Aliases:</b> @getbook, @bookresult
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='enchantitem'></a>
+
+
+  <b>@enchantitem &lt;enchantment&gt; [level]</b>
+
+    Enchants the result with the specified enchantment at specified level.
+    You must specify an enchantment name, you can find all of them in 'name index.html' file at 'ENCHANTMENTS LIST' section.
+    Optionally you can set the level of enchantment
+      Default is the enchantment's start level
+      You can use 'max' to set it to enchantment's max level.
+      You can use 'remove' to remove the enchantment (from a cloned ingredient)
+    
+    Enchantments are forced and there is no level cap!
+    This flag may be used more times to add more enchantments to the item.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @enchantitem OXYGEN // enchant with oxygen at level 1
+      @enchantitem DIG_SPEED max // enchant with dig speed at max valid level
+      @enchantitem ARROW_INFINITE 127 // enchant with arrow infinite forced at level 127
+      @enchantitem SHARPNESS remove // removes a sharpness enchant
+
+    <b>Aliases:</b> @enchant, @enchantment
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='leathercolor'></a>
+
+
+  <b>@leathercolor &lt;red&gt; &lt;green&gt; &lt;blue&gt;</b>
+
+    Changes result's leather armor color, colors must be 3 numbers ranged from 0 to 255, the red, green and blue channels.
+    
+    Specific items: leather armor.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @leathercolor 255 100 50
+
+    <b>Aliases:</b> @leathercolour, @color, @colour
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='hide'></a>
+
+
+  <b>@hide &lt;arguments&gt;</b>
+
+    Configures hide attributes for items
+    
+    Replace '&lt;arguments&gt;' with the following arguments separated by | character.
+    Arguments can be:
+      attributes     = Hide attributes like Damage
+      destroys       = Hide what the item can break/destroy
+      enchants       = Hide enchants
+      placedon       = Hide where this item can be placed on
+      potioneffects  = Hide potion effects on this item
+      unbreakable    = Hide the unbreakable state
+      all            = Hides everything
+    Arguments can be listed in any order.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @hide attributes // Removes Damage on a sword
+      @hide placedon | destroys // Removes placed on line and break/destroy lines
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='enchantedbook'></a>
+
+
+  <b>@enchantedbook &lt;enchant&gt; [level or max]</b>
+
+    Adds stored enchantments in a enchanted book item.
+    This flag may be used more times to add more enchantments to the item.
+    
+    You must specify an enchantment name or id, you can find all of them in 'name index.html' file.
+    Optionally you can set the level of enchantment
+      Default is the enchantment's start level
+      You can use 'max' to set it to enchantment's max level.
+      You can use 'remove' to remove the enchantment (from a cloned ingredient)
+    
+    Enchantments are forced and there is no level cap!
+    
+    Specific item: enchanted_book
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @enchantedbook efficiency // dig_speed alias
+      @enchantedbook damage_all max
+      @enchantedbook arrow_fire 127
+      @enchantedbook sharpness remove
+
+    <b>Aliases:</b> @enchantbook, @enchantingbook
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='bookitem'></a>
+
+
+  <b>@bookitem title [text]</b>
+  <b>@bookitem author [text]</b>
+  <b>@bookitem addpage [text]</b>
+
+    Changes book's contents.
+    Using this flag more than once will configure the same flag.
+    
+    Supports colors and format (e.g. &lt;red&gt;, &lt;blue&gt;, &amp;4, &amp;F, etc).
+    
+    Use 'title &lt;text&gt;' and 'author &lt;text&gt;' only on written books, it doesn't work on book and quill therefore they're optional.
+    Title and author must not exceed 64 characters, colors included (2 chars each).
+    
+    Use 'addpage &lt;text&gt;' to add a new page, the text can contain \n to add new lines to it, but it mainly word-wraps itself.
+    Page contents must not exceed 256 characters, colors (2 chars each) and new line (1 char each) included.
+    Optionally you can leave the text blank to add a blank page.
+    
+    Supported items: written book, book and quill.
+    
+    Allows quotes to prevent spaces being trimmed.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @bookitem title The Art of Stealing
+      @bookitem author Gray Fox
+      @bookitem addpage &lt;bold&gt;O&lt;reset&gt;nce upon a time...
+      @bookitem addpage // added blank page
+      @bookitem addpage \n\n\n\n&lt;italic&gt;      The End.
+      @bookitem title &quot; The Art of Stealing &quot; // Quotes at the beginning and end will be removed, but spaces will be kept.
+      @bookitem author &quot;   Gray Fox   &quot;
+      @bookitem addpage &quot; &lt;bold&gt;O&lt;reset&gt;nce upon a time... &quot;
+
+    <b>Aliases:</b> @book
+
+
+<hr><a href='#contents' style='font-size:12px;'>^ Contents</a><a name='noresult'></a>
+
+
+  <b>@noresult</b>
+
+    Prevents the result item from being crafted.
+    
+    Useful when giving items through @command or providing non-item results, such as @modexp.
+
+    Setting to 'false' or 'remove' will disable the flag.
+
+    <b>Examples:</b>
+      @noresult
+
+

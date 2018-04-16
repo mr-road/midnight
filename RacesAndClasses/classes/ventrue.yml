@@ -1,0 +1,22 @@
+ventrue:
+  config:
+    tag: '[Ventrue]'
+    healthbonus: 1
+    manabonus: 20
+    guislot: -1
+  traits:
+    HealTotemTrait:
+      duration: 10
+      value: 3
+      every: 2
+    PotionTotemTrait:
+      effect: 6
+      duration: 10
+    ItemForManaConsumeTrait:
+      cooldown: 10
+      item: POTION
+      cost: 1
+      value: 10
+    ManaRegenerationTrait:
+      value: 1
+      time: 5

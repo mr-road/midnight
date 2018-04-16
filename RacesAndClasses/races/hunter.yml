@@ -1,0 +1,14 @@
+Hunter:
+  config:
+    tag: '[Hunter]'
+    healthbonus: 0
+    guislot: -1
+    armor: iron,diamond,chain,gold,leather
+  traits:
+    DamageReduceTrait:
+      operation: '*'
+      value: 0.0
+    BerserkerRageTrait:
+      operation: +
+      value: 1
+      cooldown: 30

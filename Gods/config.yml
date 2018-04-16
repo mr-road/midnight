@@ -1,0 +1,118 @@
+Settings:
+  Worlds:
+  - world
+  - world_nether
+  - world_the_end
+  Debug: false
+  DisplayUpdateNotifications: false
+  MetricsOptOut: true
+  DownloadLanguageFile: true
+  Language: english
+  UseWhitelist: false
+  UseBlacklist: false
+  BroadcastNewGods: true
+  MaxPriestPrayerTime: 72
+  MaxBelieverPrayerTime: 154
+  MinBelieverPrayerTime: 30
+  MinBelieversForPriest: 3
+  MaxPriestsPrGod: 3
+  NumberOfBelieversPrPriest: 3
+  GodVerbosity: 0.1
+  ServerName: Elysium
+  PriestAssignCommand: ''
+  PriestRemoveCommand: ''
+  OnlyPriestCanSetHome: false
+  LeaveReligionOnDeath: false
+  AllowMultipleGodsPrDivinePower: false
+  MoodFalloff: 0.03
+  DefaultPrivateReligions: false
+Altars:
+  BlockTypes:
+    FROST:
+    - SNOW_BLOCK
+    LOVE:
+    - DIAMOND_BLOCK
+    EVIL:
+    - OBSIDIAN
+    SEA:
+    - LAPIS_BLOCK
+    MOON:
+    - ENDER_STONE
+    SUN:
+    - SANDSTONE
+    THUNDER:
+    - QUARTZ_BLOCK
+    PARTY:
+    - EMERALD_BLOCK
+    WAR:
+    - NETHERRACK
+    WEREWOLVES: []
+    CREATURES:
+    - LOG
+    WISDOM:
+    - BOOKSHELF
+    NATURE:
+    - MELON_BLOCK
+ItemBlessing:
+  Enabled: true
+  MinGodPowerItemBlessings: 3
+  GodPowerForLevel1Items: 10
+  MinItemBlessingTime: 10
+  GodPowerForLevel2Items: 50
+  GodPowerForLevel3Items: 100
+Blessing:
+  Enabled: true
+  Speed: true
+  Heal: true
+  Regeneration: true
+  IncreaseDamage: true
+  FastDigging: true
+  MaxBlessingTime: 180
+  MinBlessingTime: 600
+Cursing:
+  Enabled: true
+  LightningCurse: true
+  MobCurse: true
+  MaxCursingTime: 10
+  MinCursingTime: 5
+Quests:
+  Enabled: true
+  MinMinutesBetweenQuests: 180
+  GlobalQuestsPercentChance: 1
+  SlayQuests: true
+  SacrificeQuests: true
+  ConvertQuests: false
+  GiveItemsQuests: false
+  PilgrimageQuests: true
+  HolywarQuests: false
+Sacrifices:
+  Enabled: true
+Commandments:
+  Enabled: true
+  BroadcastFoodEaten: true
+  BroadcastMobSlain: true
+HolyLand:
+  Enabled: false
+  MinRadius: 10
+  MaxRadius: 1000
+  RadiusPrPower: 1.25
+  DefaultPvP: false
+  DefaultMobDamage: true
+  Lightning: false
+  AllowInteractionInNeutralLands: true
+  DeleteAbandonedHolyLandsAfterDays: 14
+  BreakableBlockTypes:
+  - SMOOTH_BRICK
+ChatFormatting:
+  Enabled: false
+Bibles:
+  Enabled: true
+Prophecies:
+  Enabled: false
+HolyArtifacts:
+  Enabled: false
+Marriage:
+  Enabled: true
+  WeddingFireworks: true
+Prayers:
+  Enabled: true

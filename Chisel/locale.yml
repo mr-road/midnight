@@ -1,0 +1,4 @@
+General:
+  PluginPrefix: '&8[&6Chisel&8]&r'
+  NoPermission: '&cYou do not have permission.'
+ChiselName: '&eChisel'

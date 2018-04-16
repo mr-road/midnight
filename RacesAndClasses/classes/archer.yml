@@ -1,0 +1,16 @@
+archer:
+  config:
+    tag: '[Archer]'
+    healthbonus: '+1'
+    guislot: -1
+  traits:
+    PoisonArrowTrait:
+      duration: 10
+      totalDamage: 10
+      cooldown: 30
+    FireArrowTrait:
+      duration: 10
+      totalDamage: 10
+      cooldown: 30
+    TeleportArrowTrait:
+      cooldown: 60

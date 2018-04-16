@@ -1,0 +1,10 @@
+[14.04.2018 19:58:55] CultusMechanicus: [Handler=swear, Rule ID=UNSET] test cock
+[14.04.2018 19:59:12] CultusMechanicus: [Handler=swear, Rule ID=UNSET] this server fucking sucks
+[14.04.2018 20:02:02] CultusMechanicus: [Handler=swear, Rule ID=UNSET] this server is shitty
+[14.04.2018 20:02:53] CultusMechanicus: [Handler=swear, Rule ID=UNSET] admin is a dick
+[14.04.2018 21:51:55] mr__road: [Handler=swear, Rule ID=UNSET] fuck wank bollocks shit tits
+[14.04.2018 21:51:55] mr__road: [Handler=swear, Rule ID=UNSET] *****wank bollocks shit tits
+[14.04.2018 21:51:55] mr__road: [Handler=swear, Rule ID=UNSET] *****wank bollocks *****tits
+[15.04.2018 12:45:41] CultusMechanicus: [Handler=swear, Rule ID=UNSET] shit message removed!
+[15.04.2018 18:48:36] CultusMechanicus: [Handler=swear, Rule ID=UNSET] well that's fucking retarded
+[15.04.2018 18:48:36] CultusMechanicus: [Handler=swear, Rule ID=UNSET] well that's *****ing retarded

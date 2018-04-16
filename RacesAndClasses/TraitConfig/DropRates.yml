@@ -1,0 +1,113 @@
+monster:
+  creeper:
+    type: CREEPER
+    expmin: 5
+    expmax: -1
+  skeleton:
+    type: SKELETON
+    expmin: 5
+    expmax: -1
+  spider:
+    type: SPIDER
+    expmin: 5
+    expmax: -1
+  giant:
+    type: GIANT
+    expmin: 5
+    expmax: -1
+  zombie:
+    type: ZOMBIE
+    expmin: 5
+    expmax: -1
+  slime:
+    type: SLIME
+    expmin: 1
+    expmax: -1
+  ghast:
+    type: GHAST
+    expmin: 5
+    expmax: -1
+  zombiepigman:
+    type: PIG_ZOMBIE
+    expmin: 5
+    expmax: -1
+  enderman:
+    type: ENDERMAN
+    expmin: 5
+    expmax: -1
+  cavespider:
+    type: CAVE_SPIDER
+    expmin: 5
+    expmax: -1
+  silverfish:
+    type: SILVERFISH
+    expmin: 5
+    expmax: -1
+  blaze:
+    type: BLAZE
+    expmin: 10
+    expmax: -1
+  magmacube:
+    type: MAGMA_CUBE
+    expmin: 1
+    expmax: -1
+  enderdragon:
+    type: ENDER_DRAGON
+    expmin: 20000
+    expmax: -1
+  wither:
+    type: WITHER
+    expmin: 50
+    expmax: -1
+  bat:
+    type: BAT
+    expmin: 0
+    expmax: -1
+  witch:
+    type: WITCH
+    expmin: 5
+    expmax: -1
+  pig:
+    type: PIG
+    expmin: 1
+    expmax: 3
+  sheep:
+    type: SHEEP
+    expmin: 1
+    expmax: 3
+  cow:
+    type: COW
+    expmin: 1
+    expmax: 3
+  chicken:
+    type: CHICKEN
+    expmin: 1
+    expmax: 3
+  squid:
+    type: SQUID
+    expmin: 1
+    expmax: 3
+  wolf:
+    type: WOLF
+    expmin: 1
+    expmax: 3
+  mushroomcow:
+    type: MUSHROOM_COW
+    expmin: 1
+    expmax: 3
+  snowgolem:
+    type: SNOWMAN
+    expmin: 0
+    expmax: -1
+  ocelot:
+    type: OCELOT
+    expmin: 1
+    expmax: 3
+  irongolem:
+    type: IRON_GOLEM
+    expmin: 0
+    expmax: -1
+  villager:
+    type: VILLAGER
+    expmin: 0
+    expmax: -1
