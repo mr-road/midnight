@@ -4,6 +4,7 @@
 # +------------------------------------------------------+ #
 ############################################################
 
+
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
 # If you receive an error when Essentials loads, ensure that:
 #   - No tabs are present: YAML only allows spaces
